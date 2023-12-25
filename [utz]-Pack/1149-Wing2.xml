@@ -1,0 +1,31 @@
+<!-- 2023.12.25 -->
+<OverlayData>
+	<POIs>
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Salvation Pass			                       *
+	*                                                                          *
+	****************************************************************************-->
+	
+	<!-- Sloth -->
+		<POI MapID="1149" xpos="233.289" ypos="8.85329" zpos="212.205" type="utz.r.w2.sloth" GUID="eQw3yTOiSkeebpGCnpENkA==" iconFile="Data/Marker/alert.png" fadeNear="2000" fadeFar="2100" miniMapVisibility="0"/>
+		<POI MapID="1149" xpos="204.034" ypos="1.46009" zpos="2.29297" type="utz.r.w2.sloth.c" GUID="+1yhAOPVFEqaslPI+L6Rcg==" iconFile="Data/Marker/arrow.png" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="189.252" ypos="0.944124" zpos="-19.7588" type="utz.r.w2.sloth.c" GUID="vteqRfsU6k+2534WThpGLQ==" iconFile="Data/Marker/circle.png" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="200.585" ypos="0.158136" zpos="-22.2793" type="utz.r.w2.sloth.c" GUID="DOuc3ZmCaUiYCdaXy4816w==" iconFile="Data/Marker/heart.png" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="211.157" ypos="0.472223" zpos="-13.3433" type="utz.r.w2.sloth.c" GUID="FAbVJi2nUkCpElXzk2L6Gw==" iconFile="Data/Marker/square.png" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="208.928" ypos="4.933" zpos="25.562" type="utz.r.w2.sloth" GUID="orHk62LZ8EyzraKa0gGXKg==" iconFile="Data/Marker/one.png" iconSize="0.5" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="174.839" ypos="2.414" zpos="-9.068" type="utz.r.w2.sloth" GUID="FYA1LPmOl0SeX4qUTWMoyw==" iconFile="Data/Marker/two.png" iconSize="0.5" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="192.947"  ypos="0.846" zpos="-35.956" type="utz.r.w2.sloth" GUID="y/MQHT7wCkagUkPZlpFa6A==" iconFile="Data/Marker/three.png" iconSize="0.5" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="224.945" ypos="-0.177" zpos="-13.404" type="utz.r.w2.sloth" GUID="K4lINKdqcEeKpuQMv9sU1g==" iconFile="Data/Marker/four.png" iconSize="0.5" fadeNear="4000" fadeFar="4100"/>
+	
+	<!-- Trio -->
+		
+	<!-- Matthias -->
+		<POI MapID="1149" xpos="233.289" ypos="8.85329" zpos="212.205" type="utz.r.w2.mat" GUID="" iconFile="Data/Marker/alert.png" fadeNear="2000" fadeFar="2100" miniMapVisibility="0"/>
+		<POI MapID="1149" xpos="-171.0662" ypos="131.7141" zpos="129.6464" type="utz.r.w2.mat.c" GUID="H2zG9HaLbEqFa03b86BaYg==" iconFile="Data/Marker/arrow.png" heightOffset="4" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="-171.065" ypos="131.7728" zpos="170.2808" type="utz.r.w2.mat.c" GUID="7uQvSjGSk0+F9qkUXUtL6A==" iconFile="Data/Marker/circle.png" heightOffset="4" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="-129.9426" ypos="131.8336" zpos="170.2092" type="utz.r.w2.mat.c" GUID="23g0vuW330C9OqAnFuYTxA==" iconFile="Data/Marker/heart.png" heightOffset="4" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="-130.633" ypos="131.5248" zpos="129.8348" type="utz.r.w2.mat.c" GUID="KDao9URL+k2WcLw1ac3dTg==" iconFile="Data/Marker/square.png" heightOffset="4" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+	</POIs>
+</OverlayData>

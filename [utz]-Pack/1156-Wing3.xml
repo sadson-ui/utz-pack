@@ -1,0 +1,25 @@
+<!-- 2023.12.25 -->
+<OverlayData>
+	<POIs>
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Stronghold of the Faithful   		           *
+	*                                                                          *
+	****************************************************************************-->
+	
+	<!-- KC -->
+		<POI MapID="1156" xpos="-107.871" ypos="141.272" zpos="286.52" type="utz.r.w3.kc" GUID="uRYEvui7TE+cFdofFePNWQ==" iconFile="Data/Marker/alert.png" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
+		<POI MapID="1156" xpos="-97.019" ypos="148.556" zpos="255.827" type="utz.r.w3.kc.c" GUID="nugzrk0nS0K0aljtSTqbaQ==" iconFile="Data/Marker/arrow.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1156" xpos="-81.049" ypos="148.556" zpos="228.662" type="utz.r.w3.kc.c" GUID="RzADtW9fS0y4Ql8PnUwW7g==" iconFile="Data/Marker/circle.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1156" xpos="-114.034" ypos="148.556" zpos="229.05" type="utz.r.w3.kc.c" GUID="T0umJFAk3kyaz20kA5+ULA==" iconFile="Data/Marker/heart.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		
+	<!-- Xera -->
+		<POI MapID="1156" xpos="-47.8977" ypos="512.745" zpos="-23.0523" type="utz.r.w3.xera" GUID="SSoPnVkWAUqLLFdxBo4GtA==" iconFile="Data/Marker/alert.png" fadeNear="2000" fadeFar="2100"/>
+		<POI MapID="1156" xpos="-55.524" ypos="512.354" zpos="-92.326" type="utz.r.w3.xera.c" GUID="OxQ6coeHSEWgvOwds+J1DA==" iconFile="Data/Marker/arrow.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1156" xpos="-64.367" ypos="512.354" zpos="-58.505" type="utz.r.w3.xera.c" GUID="uvq1SpDnAEGIVlABQo1KdA==" iconFile="Data/Marker/circle.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1156" xpos="-101.757" ypos="512.354" zpos="-80.51" type="utz.r.w3.xera.c" GUID="2PYcAZNRKUW4qxtKJFz1JA==" iconFile="Data/Marker/heart.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1156" xpos="-98.724" ypos="512.354" zpos="-68.167" type="utz.r.w3.xera.c" GUID="3xWcHt0DmkyteaVMwetNfg==" iconFile="Data/Marker/square.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		
+	</POIs>
+</OverlayData>

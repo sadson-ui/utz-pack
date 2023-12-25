@@ -1,0 +1,107 @@
+<!-- 2023.12.25 -->
+<OverlayData>
+	<POIs>
+	
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                        	   S T R I K E S                       		   *
+	*                                                                          *
+	****************************************************************************-->
+	
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Aetherblade Hideout                      	   *
+	*                                                                          *
+	****************************************************************************-->
+	
+		<POI MapID="1432" xpos="45.9849" 	ypos="46.2611" 	zpos="32.9468" 		type="utz.str.streod.ah" 	GUID="DfREUkdh90e8ougW0P4G9w==" 	iconFile="Data/Marker/signetmoa.png" 	iconSize="0.5" 		alpha="0.5"/>
+		<!-- Gather -->
+		<POI MapID="1432" xpos="80.6161" 	ypos="45.7352" 	zpos="55.8018" 		type="utz.str.streod.ah" 	GUID="UnEartYsgEm7k+/jYCag7w==" 	iconFile="Data/Marker/arrow.png" 		iconSize="0.5" 		alpha="0.8"/>
+		<POI MapID="1432" xpos="79.3554" 	ypos="45.7351" 	zpos="48.2065" 		type="utz.str.streod.ah" 	GUID="vGdk7sGDMEyWsZO4BRLVNQ==" 	iconFile="Data/Marker/circle.png" 		iconSize="0.5" 		alpha="0.8"/>
+		<POI MapID="1432" xpos="86.9277" 	ypos="45.7351"	zpos="47.0636" 		type="utz.str.streod.ah" 	GUID="E+1GZ/CDyUO8WYArkJ3KXA==" 	iconFile="Data/Marker/heart.png" 		iconSize="0.5"		alpha="0.8"/>
+		<!-- Stack -->
+		<POI MapID="1432" xpos="64.2257" 	ypos="45.957" 	zpos="48.0624" 		type="utz.str.streod.ah" 	GUID="MUQNR71Q+km7Xf2WdkeJIQ==" 	iconFile="Data/Marker/x.png" 			iconSize="0.5"		alpha="0.8"/>
+	
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Xunjai Jade Junkyard                       	   *
+	*                                                                          *
+	****************************************************************************-->
+		<!-- Start -->
+		<POI MapID="1450" xpos="-153.106" 	ypos="129.651" 	zpos="-39.9309" 	type="utz.str.streod.xjj" 	GUID="CXSdSilMF0GsMmd+aVVihA==" 	iconFile="Data/Marker/signetmoa.png" 	fadeNear="1500" 	fadeFar="2000"/>
+		<!-- Phase 1 -->
+		<POI MapID="1450" xpos="-133.723" 	ypos="94.0979" 	zpos="-12.8483"		type="utz.str.streod.xjj" 	GUID="1et0UxZpiUG8kX7ghYcAAw==" 	iconFile="Data/Marker/arrow.png" 		fadeNear="3000" 	fadeFar="3500"/>
+		<POI MapID="1450" xpos="-127.124" 	ypos="93.9625" 	zpos="-19.9441"		type="utz.str.streod.xjj" 	GUID="A+FK1B7qd0qs7JUjHzwUFg==" 	iconFile="Data/Marker/circle.png" 		fadeNear="3000" 	fadeFar="3500"/>
+		<POI MapID="1450" xpos="-120.444" 	ypos="94.2905" 	zpos="-26.7292" 	type="utz.str.streod.xjj" 	GUID="mOCnYULR+Ey+sw8/lB2G7Q==" 	iconFile="Data/Marker/heart.png" 		fadeNear="3000" 	fadeFar="3500"/>
+		<!-- Phase 2 -->
+		<POI MapID="1450" xpos="18.985" 	ypos="117.643" 	zpos="40.703"		type="utz.str.streod.xjj" 	GUID="caMS/+ZALE2Vrd1MqM+TWQ=="		iconFile="Data/Marker/arrow.png" 		fadeNear="3000" 	fadeFar="3500"/>
+		<POI MapID="1450" xpos="88.307" 	ypos="118.695" 	zpos="37.673" 		type="utz.str.streod.xjj" 	GUID="L8gft2N3aEyG7ZYCAfthow=="	 	iconFile="Data/Marker/circle.png" 		fadeNear="3000" 	fadeFar="3500"/>
+		<POI MapID="1450" xpos="66.61" 		ypos="119.851" 	zpos="-4.534" 		type="utz.str.streod.xjj" 	GUID="imQCmKY1sE+mTqy8PKUDHQ==" 	iconFile="Data/Marker/heart.png" 		fadeNear="3000" 	fadeFar="3500"/>
+		<!-- Phase 3 -->
+		<POI MapID="1450" xpos="-78.353" 	ypos="157.493" 	zpos="136.421" 		type="utz.str.streod.xjj" 	GUID="AbRAG6y7f0q3xPgzjZYddQ=="		iconFile="Data/Marker/arrow.png" 		fadeNear="3000" 	fadeFar="3500"/>
+		<POI MapID="1450" xpos="-44.588" 	ypos="157.411" 	zpos="108.224" 		type="utz.str.streod.xjj" 	GUID="OwWuO/s8kkq4aHUs3xWt6g=="	 	iconFile="Data/Marker/circle.png" 		fadeNear="3000" 	fadeFar="3500"/>
+		<POI MapID="1450" xpos="-41.937" 	ypos="157.431" 	zpos="151.549" 		type="utz.str.streod.xjj" 	GUID="J8ewNsgJz0inwn4S3jEKuA=="	 	iconFile="Data/Marker/heart.png" 		fadeNear="3000" 	fadeFar="3500"/>
+	
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Kaineng Overlook                        	   *
+	*                                                                          *
+	****************************************************************************-->
+		
+		<!-- Start -->
+		<POI MapID="1451" xpos="-511.92" 	ypos="271.053" 	zpos="-342.67" 		type="utz.str.streod.ko" 	GUID="99X+MZXjuUSBN1FdfJ00zw==" 	iconFile="Data/Marker/shortbow.png" 	iconSize="1.3" 	fadeNear="700" 	fadeFar="1000"/>
+		<POI MapID="1451" xpos="-511.92" 	ypos="273.053" 	zpos="-342.67" 		type="utz.str.streod.ko"	GUID="l0ynLBDJn0q6/dssLjf/6w==" 	iconFile="Data/Marker/thousandcuts.png" iconSize="0.5" 	fadeNear="700" 	fadeFar="1000"/>
+		<!-- Main -->
+		<POI MapID="1451" xpos="-579.7903" 	ypos="274.5745" zpos="-404.9231" 	type="utz.str.streod.ko" 	GUID="/0ODWxf6UUW+5J9PLYNznA==" 	iconFile="Data/Marker/arrow.png" 		iconSize="0.5" 	alpha="0.8"/>
+		<POI MapID="1451" xpos="-586-442" 	ypos="274.5745" zpos="-409.732" 	type="utz.str.streod.ko" 	GUID="WGctH2sz9EyNwM3zH22FfA==" 	iconFile="Data/Marker/circle.png" 		iconSize="0.5" 	alpha="0.8"/>
+		<POI MapID="1451" xpos="-592.6197" 	ypos="274.5745" zpos="-407.1154" 	type="utz.str.streod.ko" 	GUID="LlOjVLXePkOgs3A2hyJcfQ==" 	iconFile="Data/Marker/heart.png" 		iconSize="0.5" 	alpha="0.8"/>
+		<POI MapID="1451" xpos="-594.0124" 	ypos="274.5745" zpos="-399.812" 	type="utz.str.streod.ko" 	GUID="euqYPblwBUuWsqytsgtqGw==" 	iconFile="Data/Marker/square.png" 		iconSize="0.5" 	alpha="0.8"/>
+		<POI MapID="1451" xpos="-587.5551" 	ypos="274.5745" zpos="-395.4004" 	type="utz.str.streod.ko" 	GUID="bJiJ6WlgekCs6fZIow/XIg==" 	iconFile="Data/Marker/star.png" 		iconSize="0.5" 	alpha="0.8"/>
+		<!-- Split -->
+		<POI MapID="1451" xpos="-532.4946" 	ypos="266.1935" zpos="-361.8831" 	type="utz.str.streod.ko" 	GUID="TVvhRXhLNkOrWnwnxqe+0Q==" 	iconFile="Data/Marker/spiral.png" 		iconSize="0.5" 	alpha="0.8"/>
+		<POI MapID="1451" xpos="-536.107" 	ypos="266.1935" zpos="-384.9667" 	type="utz.str.streod.ko" 	GUID="39ritprk3k68gKmhLdmvCw==" 	iconFile="Data/Marker/triangle.png" 	iconSize="0.5" 	alpha="0.8"/>
+		<POI MapID="1451" xpos="-556.5455"  ypos="266.1935" zpos="-357.6116" 	type="utz.str.streod.ko" 	GUID="t1NOMjyQ9U2F7soXfrf7BA==" 	iconFile="Data/Marker/x.png" 			iconSize="0.5" 	alpha="0.8"/>
+	
+	
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Harvest Temple		                       	   *
+	*                                                                          *
+	****************************************************************************-->
+	
+		<!-- <POI MapID="1437" xpos="14.8896" ypos="391.723" zpos="-484.735" GUID="hsubLqS20EiVUNtWTH5q9A=="/> -->
+	
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Old Lion's Curt		                       	   *
+	*                                                                          *
+	****************************************************************************-->
+	
+		<POI MapID="1485" xpos="-42.7142" ypos="21.5158" zpos="151.33" type="utz.str.strct.olc" GUID="vvABCcQ3BECzKHDW2WKm/Q==" iconFile="Data/Marker/signetmoa.png" iconSize="0.5" alpha="0.8" fadeNear="1000" fadeFar="1100"/>
+		
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Cosmic Observatory	                       	   *
+	*                                                                          *
+	****************************************************************************-->
+	
+		<!-- <POI >-->
+	
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Temple of Febe		                       	   *
+	*                                                                          *
+	****************************************************************************-->
+	
+		<!-- <POI >-->
+	
+	</POIs>
+</OverlayData>

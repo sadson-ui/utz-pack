@@ -1,0 +1,471 @@
+<!-- 2023.12.25 -->
+<!-- next things to do: -bl key farm marker + copy wp
+						-tc marker
+						-fap
+						-->
+<OverlayData>
+
+	<MarkerCategory name="utz"                                                       	 DisplayName="[utz]-Pack">
+	
+	<!-- Missing -->
+	<MarkerCategory name="missing" 														 DisplayName="■       MISSING       ■" 										   IsSeparator="1"/>
+	
+		<MarkerCategory name="info"                                                   	 DisplayName="Missing stuff" 												   minSize="48" maxSize="64" heightOffset="0.75" fadeNear="1500" fadeFar="2000" mapVisibility="0" miniMapVisibility="0" mapDisplaySize="12">
+			<MarkerCategory name="11"                                                 	 DisplayName="Matthias Alert"/>
+			<MarkerCategory name="12"                                                	 DisplayName="maybe TC marker set"/>
+			<MarkerCategory name="13"                                                 	 DisplayName="Cairn Alert"/>
+			<MarkerCategory name="14"                                                 	 DisplayName="Portal MO Pre"/>
+			<MarkerCategory name="15"                                                 	 DisplayName="MO Alert"/>
+			<MarkerCategory name="16"                                                 	 DisplayName="Samarog Alert"/>
+			<MarkerCategory name="17"                                                 	 DisplayName="Deimos Alert"/>
+			<MarkerCategory name="18"                                                 	 DisplayName="Portal Sabir"/>
+		
+		</MarkerCategory>
+		
+	
+	<!-- Raids -->
+	<MarkerCategory name="r"                                                         	 DisplayName="■        RAIDS        ■"                                         IsSeparator="1"/>
+
+	<MarkerCategory name="w1"                                                 			 DisplayName="Wing 1" 														   minSize="16" maxSize="32" mapDisplaySize="30">
+		
+		<MarkerCategory name="vg" displayname="Vale Guardian">
+			
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+			<MarkerCategory name="shroom1" displayName="Speedshroom" iconFile="Data/Marker/Speed_Mushroom.png"/>
+					
+		</MarkerCategory>
+				
+		<MarkerCategory name="spirits" displayname="Spirit Woods">
+								
+			<MarkerCategory name="p_i" displayName="Portal_In" iconFile="Data/Marker/portal_in.png"/>
+			<MarkerCategory name="p_o" displayName="Portal_Out" iconFile="Data/Marker/portal_out.png"/>
+			<MarkerCategory name="blink" displayName="Blink" iconFile="Data/Marker/blink.png"/>
+			<MarkerCategory name="1" displayName="One" iconFile="Data/Marker/1.png"/>
+			<MarkerCategory name="2" displayName="Two" iconFile="Data/Marker/2.png"/>
+			<MarkerCategory name="3" displayName="Three" iconFile="Data/Marker/3.png"/>
+			<MarkerCategory name="4" displayName="Four" iconFile="Data/Marker/4.png"/>
+			<MarkerCategory name="5" displayName="Five" iconFile="Data/Marker/5.png"/>
+			<MarkerCategory name="shroom2" displayName="Adrenalshroom" iconFile="Data/Marker/gold_coin.png"/>
+					
+		</MarkerCategory>
+								
+		<MarkerCategory name="gorse" displayname="Gorseval">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+					
+			</MarkerCategory>
+					
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+					
+		</MarkerCategory>
+				
+		<MarkerCategory name="bandits" displayname="Bandits">
+		
+			<MarkerCategory name="p_i" displayName="Portal_In" iconFile="Data/Marker/portal_in.png"/>
+			<MarkerCategory name="p_o" displayName="Portal_Out" iconFile="Data/Marker/portal_out.png"/>
+			<MarkerCategory name="blink" displayName="Blink" iconFile="Data/Marker/blink.png"/>
+					
+		</MarkerCategory>
+				
+		<MarkerCategory name="sab" displayname="Sabetha">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+				
+			</MarkerCategory>
+					
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+					
+		</MarkerCategory>
+		
+	</MarkerCategory>
+
+	<MarkerCategory name="w2"                                                     		 DisplayName="Wing 2" 														   minSize="16" maxSize="32" mapDisplaySize="30">
+		
+		<MarkerCategory name="sloth" displayname="Slothasor">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+											
+			</MarkerCategory>
+					
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+			<MarkerCategory name="one" displayName="One" iconFile="Data/Marker/one.png"/>
+			<MarkerCategory name="two" displayName="Two" iconFile="Data/Marker/two.png"/>
+			<MarkerCategory name="three" displayName="Three" iconFile="Data/Marker/three.png"/>
+			<MarkerCategory name="four" displayName="Four" iconFile="Data/Marker/four.png"/>
+					
+		</MarkerCategory>
+				
+		<!--<MarkerCategory name="trio" displayname="Bandit Trio">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+				<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png"/>
+				<MarkerCategory name="sp" displayName="Spiral" iconFile="Data/Marker/spiral.png"/>
+				<MarkerCategory name="tr" displayName="Triangle" iconFile="Data/Marker/triangle.png"/>
+				<MarkerCategory name="x" displayName="X" iconFile="Data/Marker/cross.png"/>
+					
+			</MarkerCategory>
+					
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+					
+		</MarkerCategory>-->
+				
+		<MarkerCategory name="mat" displayname="Matthias">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+											
+			</MarkerCategory>
+					
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+					
+		</MarkerCategory>
+		
+	</MarkerCategory>
+
+	<MarkerCategory name="w3"                                                      		 DisplayName="Wing 3" 														   minSize="16" maxSize="32" mapDisplaySize="30">
+		
+		<MarkerCategory name="escort" displayname="Escort">
+			
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+					
+		</MarkerCategory>
+				
+		<MarkerCategory name="kc" displayname="Keep Construct">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+							
+			</MarkerCategory>
+					
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+					
+		</MarkerCategory>
+				
+		<MarkerCategory name="Xera" displayname="Xera">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+									
+			</MarkerCategory>
+					
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+					
+		</MarkerCategory>
+
+	</MarkerCategory>
+
+	<MarkerCategory name="w4"                                                  			 DisplayName="Wing 4" 														   minSize="16" maxSize="32" mapDisplaySize="30">
+	
+		<MarkerCategory name="cairn" displayname="Cairn">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+									
+			</MarkerCategory>
+					
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+					
+		</MarkerCategory>
+				
+		<MarkerCategory name="mopre" displayname="Mursaat Pre">
+			
+			<MarkerCategory name="p_i" displayName="Portal_In" iconFile="Data/Marker/portal_in.png"/>
+			<MarkerCategory name="p_o" displayName="Portal_Out" iconFile="Data/Marker/portal_out.png"/>
+			<MarkerCategory name="blink" displayName="Blink" iconFile="Data/Marker/blink.png"/>
+					
+		</MarkerCategory>
+				
+		<MarkerCategory name="mo" displayname="Mursaat Overseer">
+								
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+					
+		</MarkerCategory>
+				
+		<MarkerCategory name="sama" displayname="Samarog">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+				<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png"/>
+				<MarkerCategory name="sp" displayName="Spiral" iconFile="Data/Marker/spiral.png"/>
+									
+			</MarkerCategory>
+					
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+					
+		</MarkerCategory>
+				
+		<MarkerCategory name="deimos" displayname="Deimos">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+									
+			</MarkerCategory>
+					
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+			<MarkerCategory name="1" displayName="One" iconFile="Data/Marker/1.png"/>
+			<MarkerCategory name="2" displayName="Two" iconFile="Data/Marker/2.png"/>
+			<MarkerCategory name="3" displayName="Three" iconFile="Data/Marker/3.png"/>
+					
+			</MarkerCategory>
+				
+		</MarkerCategory>
+	
+	<MarkerCategory name="w5"                                               			 DisplayName="Wing 5" 														   minSize="16" maxSize="32" mapDisplaySize="30">
+	
+		<MarkerCategory name="desmina" displayname="Desmina">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+								
+			</MarkerCategory>
+			
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+					
+		</MarkerCategory>
+				
+		<MarkerCategory name="river" displayname="River">
+			
+			<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+			<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>				
+			<MarkerCategory name="p_i" displayName="Portal_In" iconFile="Data/Marker/portal_in.png"/>
+			<MarkerCategory name="p_o" displayName="Portal_Out" iconFile="Data/Marker/portal_out.png"/>
+			
+		</MarkerCategory>
+				
+		<MarkerCategory name="eyes" displayname="Eyes">
+			
+			<MarkerCategory name="1r" displayName="1red" iconFile="Data/Marker/1r.png"/>
+			<MarkerCategory name="2r" displayName="2red" iconFile="Data/Marker/2r.png"/>
+			
+		</MarkerCategory>
+		
+		<MarkerCategory name="soul" displayname="Souleater">
+			
+			<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+			<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+			<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+			<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+														
+		</MarkerCategory>
+		
+		<MarkerCategory name="king" displayname="Broken King">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+									
+			</MarkerCategory>
+													
+		</MarkerCategory>
+		
+		<MarkerCategory name="dhuum" displayname="Dhuum">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+				<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png"/>
+				<MarkerCategory name="sp" displayName="Spiral" iconFile="Data/Marker/spiral.png"/>
+				<MarkerCategory name="tr" displayName="Triangle" iconFile="Data/Marker/triangle.png"/>
+				<MarkerCategory name="x" displayName="X" iconFile="Data/Marker/cross.png"/>
+									
+			</MarkerCategory>
+													
+		</MarkerCategory>
+		
+	</MarkerCategory>
+
+	<MarkerCategory name="w6"                                                 			 DisplayName="Wing 6" 														   minSize="16" maxSize="32" mapDisplaySize="30">
+		
+		<MarkerCategory name="ca" displayname="Conjured Amalgamate">
+			
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+		
+		</MarkerCategory>
+		
+		<MarkerCategory name="s&a" displayname="Dhuum">
+			
+			<MarkerCategory name="ooze" displayName="Ooze" iconFile="Data/Marker/ooze.png"/>
+			<MarkerCategory name="toys" displayName="Toys" iconFile="Data/Marker/toys.png"/>
+
+		</MarkerCategory>
+		
+		<MarkerCategory name="twins" displayname="Twin Largos">
+			
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+			<MarkerCategory name="1r" displayName="1red" iconFile="Data/Marker/1r.png"/>
+			<MarkerCategory name="2r" displayName="2red" iconFile="Data/Marker/2r.png"/>
+			
+		</MarkerCategory>
+		
+		<MarkerCategory name="q1" displayname="Qadim">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="x" displayName="X" iconFile="Data/Marker/cross.png"/>
+									
+			</MarkerCategory>
+			
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+			
+		</MarkerCategory>
+		
+	</MarkerCategory>
+
+	<MarkerCategory name="w7"                                                      		 DisplayName="Wing 7" 													       minSize="16" maxSize="32" mapDisplaySize="30">
+		
+		<MarkerCategory name="pre" displayname="Preparation">
+			
+			<MarkerCategory name="1r" displayName="1red" iconFile="Data/Marker/1r.png"/>
+			<MarkerCategory name="2r" displayName="2red" iconFile="Data/Marker/2r.png"/>
+			
+		</MarkerCategory>
+		
+		<MarkerCategory name="adina" displayname="Adina">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+				<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png"/>
+													
+			</MarkerCategory>
+			
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+						
+		</MarkerCategory>
+		
+		<MarkerCategory name="sabir" displayname="Sabir">
+			
+			<MarkerCategory name="p_i" displayName="Portal_In" iconFile="Data/Marker/portal_in.png"/>
+			<MarkerCategory name="p_o" displayName="Portal_Out" iconFile="Data/Marker/portal_out.png"/>
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+			
+		</MarkerCategory>
+		
+		<MarkerCategory name="q2" displayname="Qadim the Peerless">
+			
+			<MarkerCategory name="c" displayname="Commandermarker">
+				
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+									
+			</MarkerCategory>
+			
+			<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+						
+		</MarkerCategory>
+					
+	</MarkerCategory>
+
+	<!-- STRIKES -->
+	<MarkerCategory name="str"                                                           DisplayName="■        STRIKES        ■"                                   	   IsSeparator="1"/>
+
+	<MarkerCategory name="streod"                                                 		 DisplayName="End of Dragons"                                          		   IsSeparator="1"/>
+	
+	<MarkerCategory name="ah"															 DisplayName="Aetherblade Hideout"                                             minSize="16" maxSize="32" mapDisplaySize="30">
+		<MarkerCategory name="ar" 														 DisplayName="Arrow" 														   iconFile="Data/Marker/arrow.png"/>
+		<MarkerCategory name="ci" 														 DisplayName="Circle" 														   iconFile="Data/Marker/circle.png"/>
+		<MarkerCategory name="he" 														 DisplayName="Heart"                                                           iconFile="Data/Marker/heart.png"/>
+		<MarkerCategory name="x" 														 DisplayName="X" 															   iconFile="Data/Marker/cross.png"/>
+		<MarkerCategory name="moa" 													     DisplayName="Moa" 															   iconFile="Data/Marker/signetmoa.png"/>
+	</MarkerCategory>
+	
+	<MarkerCategory name="xjj"															 DisplayName="Xunlai Jade Junkyard"                                            minSize="16" maxSize="32" mapDisplaySize="30">
+		<MarkerCategory name="ar" 														 DisplayName="Arrow" 														   iconFile="Data/Marker/arrow.png"/>
+		<MarkerCategory name="ci" 														 DisplayName="Circle" 														   iconFile="Data/Marker/circle.png"/>
+		<MarkerCategory name="he" 														 DisplayName="Heart" 														   iconFile="Data/Marker/heart.png"/>
+		<MarkerCategory name="moa" 														 DisplayName="Moa" 															   iconFile="Data/Marker/signetmoa.png"/>
+	</MarkerCategory>
+	
+	<MarkerCategory name="ko"															 DisplayName="Kaineng Overlook"                                            	   minSize="16" maxSize="32" mapDisplaySize="30">
+		<MarkerCategory name="ar" 														 DisplayName="Arrow" 														   iconFile="Data/Marker/arrow.png"/>
+		<MarkerCategory name="ci" 														 DisplayName="Circle" 														   iconFile="Data/Marker/circle.png"/>
+		<MarkerCategory name="he" 														 DisplayName="Heart" 														   iconFile="Data/Marker/heart.png"/>
+		<MarkerCategory name="sq" 														 DisplayName="Square" 														   iconFile="Data/Marker/square.png"/>
+		<MarkerCategory name="st" 														 DisplayName="Star" 														   iconFile="Data/Marker/star.png"/>
+		<MarkerCategory name="sp" 														 DisplayName="Spiral" 														   iconFile="Data/Marker/spiral.png"/>
+		<MarkerCategory name="tr" 														 DisplayName="Triangle" 													   iconFile="Data/Marker/triangle.png"/>
+		<MarkerCategory name="x" 													 	 DisplayName="X" 														       iconFile="Data/Marker/cross.png"/>
+		<MarkerCategory name="shortbow" 												 DisplayName="Shortbow" 													   iconFile="Data/Marker/shortbow.png"/>
+		<MarkerCategory name="cuts" 													 DisplayName="Cuts" 														   iconFile="Data/Marker/thousandcuts.png"/>
+	</MarkerCategory>
+	
+	<MarkerCategory name="ht"															 DisplayName="Harvest Temple"                                            	   minSize="16" maxSize="32" mapDisplaySize="30">
+		
+	</MarkerCategory>
+	
+	<MarkerCategory name="strct"                                                 		 DisplayName="Core Tyria"                                          		  	   IsSeparator="1"/>
+	
+	<MarkerCategory name="olc"															 DisplayName="Old Lion's Court"                                            	   minSize="16" maxSize="32" mapDisplaySize="30">
+		<MarkerCategory name="moa" 														 DisplayName="Moa" 														 	   iconFile="Data/Marker/signetmoa.png"/>
+	</MarkerCategory>
+	
+	<MarkerCategory name="strsoto"                                                 		 DisplayName="Secrets of the Obscure"                              		  	   IsSeparator="1"/>
+	
+	<MarkerCategory name="co"															 DisplayName="Cosmic Observatory"                                              minSize="16" maxSize="32" mapDisplaySize="30">
+		<MarkerCategory name="moa" 														 DisplayName="Moa" 														 	   iconFile="Data/Marker/signetmoa.png"/>
+	</MarkerCategory>
+	
+	<MarkerCategory name="tof"															 DisplayName="Temple of Febe"                                            	   minSize="16" maxSize="32" mapDisplaySize="30">
+		<MarkerCategory name="moa" 														 DisplayName="Moa" 														 	   iconFile="Data/Marker/signetmoa.png"/>
+	</MarkerCategory>
+	
+	</MarkerCategory>
+	
+</OverlayData>

@@ -1,0 +1,33 @@
+<!-- 2023.12.25 -->
+<OverlayData>
+	<POIs>
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Marker Key of Adahshim                         *
+	*                                                                          *
+	****************************************************************************-->
+		
+	<!-- Pre Split -->
+		<POI MapID="1323" xpos="24.9466" ypos="18.758" zpos="-68.0765" type="utz.r.w7.pre" GUID="x7Os8i1a5UC+IOk3Tc6zqQ==" iconFile="Data/Marker/1r.png" heightOffset="3" iconSize="1.5" alpha="1" fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>
+		<POI MapID="1323" xpos="57.7186" ypos="18.758" zpos="-68.1828" type="utz.r.w7.pre" GUID="sTpOFN11C0+kWXml1SIy3g==" iconFile="Data/Marker/2r.png" heightOffset="3" iconSize="1.5" alpha="1" fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>
+	
+	<!-- Adina -->
+		<POI MapID="1323" xpos="368.3367" ypos="7.753" zpos="-35.1284" type="utz.r.w7.adina.c" GUID="m+Br69JzIESl+PW8vxWEPg==" iconFile="Data/Marker/arrow.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1323" xpos="370.7757" ypos="7.753" zpos="-30.2117" type="utz.r.w7.adina.c" GUID="uC5NbjpY50q4vOsn5Ty6OQ==" iconFile="Data/Marker/circle.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1323" xpos="379.4796" ypos="7.753" zpos="-28.1179" type="utz.r.w7.adina.c" GUID="SN6cNjWUNUixogTHbvuxVA==" iconFile="Data/Marker/heart.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1323" xpos="386.2661" ypos="7.753" zpos="-30.87" type="utz.r.w7.adina.c" GUID="1xF6a1LofkyucEw6O9Xj5A==" iconFile="Data/Marker/square.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1323" xpos="389.6114" ypos="7.753" zpos="-37.7576" type="utz.r.w7.adina.c" GUID="43Bvz39p5kiJqI/mXYiMXw==" iconFile="Data/Marker/star.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+	
+	<!-- Sabir -->
+		<POI MapID="1323" xpos="-322.414" ypos="51.8386" zpos="80.6657" type="utz.r.w7.sabir" GUID="ZuNoKZekOUuYyEClK+pCcQ==" iconFile="Data/Marker/portal_in.png" />
+		<POI MapID="1323" xpos="-256.878" ypos="78.1359" zpos="31.5863" type="utz.r.w7.sabir" GUID="l8maSF7Oq0aqwVsE99oEXw==" iconFile="Data/Marker/portal_out.png" />
+		<POI MapID="1323" xpos="-306.608" ypos="84.8862" zpos="19.1138" type="utz.r.w7.sabir" GUID="eiQz45KeSEePslec1DVnpw==" iconFile="Data/Marker/portal_in.png" />
+		<!--<POI MapID="1323" xpos="-256.878" ypos="78.1359" zpos="31.5863" type="utz.r.w7.sabir" GUID="" iconFile="Data/Marker/portal_out.png" />-->
+		
+	<!-- Q2 -->
+		<POI MapID="1323" xpos="41.3902" ypos="16.8137" zpos="217.312" type="utz.r.w7.q2.c" GUID="8rQm3VD9zUmN+G6RFwqhrw==" iconFile="Data/Marker/arrow.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="5000" fadeFar="5200"/>
+		<POI MapID="1323" xpos="74.3955" ypos="16.8168" zpos="275.42" type="utz.r.w7.q2.c" GUID="Wo/Uo9YVZ0ykP9ylJJinFQ==" iconFile="Data/Marker/circle.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="5000" fadeFar="5200"/>
+		<POI MapID="1323" xpos="7.9651" ypos="16.8125" zpos="275.01" type="utz.r.w7.q2.c" GUID="DJuBQ9XJXEWlOHz6bcnWNQ==" iconFile="Data/Marker/heart.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="5000" fadeFar="5200"/>
+	</POIs>
+</OverlayData>

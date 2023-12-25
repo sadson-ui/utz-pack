@@ -1,0 +1,63 @@
+<!-- 2023.12.25 -->
+<OverlayData>
+	<POIs>
+	<!--
+	**************************************************************************** 
+	*                                                                          *
+	*                           Marker Hall of Chains                          *
+	*                                                                          *
+	****************************************************************************-->
+	
+	<!-- Desmina -->
+		<POI MapID="1264" xpos="-334.792" ypos="44.7534" zpos="16.5252" type="utz.r.w5.desmina" GUID="+pRlqr1/2E60+Z3J/pIwsg==" iconFile="Data/Marker/alert.png" iconSize="2" mapDisplaySize="0"  fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>
+		<POI MapID="1264" xpos="-266.506" ypos="20.7626" zpos="8.67837" type="utz.r.w5.desmina.c" GUID="hjBfi6TeBkqAiwqv69bwUQ==" iconFile="Data/Marker/arrow.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-282.779" ypos="20.7626" zpos="18.4602" type="utz.r.w5.desmina.c" GUID="IN17Eh90XEWpPRtBgkA/2g==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-272.953" ypos="20.7626" zpos="34.7396" type="utz.r.w5.desmina.c" GUID="5mi/xyelOEava0+xmRnpeQ==" iconFile="Data/Marker/heart.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-256.56" ypos="20.7626" zpos="24.8607" type="utz.r.w5.desmina.c" GUID="uGVPE9HvkkaK2jNkwMX45w==" iconFile="Data/Marker/square.png" fadeNear="5000" fadeFar="5100"/>
+	
+	<!-- River -->
+		<POI MapID="1264" xpos="-164.359" ypos="32.8773" zpos="12.6926" type="utz.r.w5.river" GUID="EUN6vP0Tmk2ycJa3+H+qQQ==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-89.4168" ypos="50.6979" zpos="22.1451" type="utz.r.w5.river" GUID="uhD5kOrFpk6UbEKjnoxCtg==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-84.3609" ypos="51.9822" zpos="40.4911" type="utz.r.w5.river" GUID="+eLo8QdXv0aEJAUVdM22Mg==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-57.092" ypos="53.6288" zpos="18.6688" type="utz.r.w5.river" GUID="9pVJLg+1y0+o8rcxJ0Xmhw==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="4.96518" ypos="41.0442" zpos="-108.898" type="utz.r.w5.river" GUID="Ow34jpHhhkmbV5v/osbAww==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-144.611" ypos="40.1848" zpos="25.7487" type="utz.r.w5.river" GUID="D6t9UxY2SU+nj78KCn1l2A==" iconFile="Data/Marker/square.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="27.1903" ypos="52.9444" zpos="-113.018" type="utz.r.w5.river" GUID="JsuBZ/8aQ0uf/Jhq7wCkLQ==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="69.9071" ypos="76.6462" zpos="-101.202" type="utz.r.w5.river" GUID="aRATMzwAR0GbLAJSv6qwpw==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="61.377" ypos="75.5409" zpos="-84.9426" type="utz.r.w5.river" GUID="rcWwAkCH70OHHRpRtGBUjw==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="82.4109" ypos="91.1682" zpos="-54.3983" type="utz.r.w5.river" GUID="7cyDstoGi0aR/KKcAa7RNg==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="96.2511" ypos="97.4523" zpos="-48.8083" type="utz.r.w5.river" GUID="GzJMjgWbQEq1hPOBwLJP3Q==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-64.4938" ypos="53.6152" zpos="25.0014" type="utz.r.w5.river" GUID="Jw2MpY62TUeF6GkuixXkrA==" iconFile="Data/Marker/square.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="23.0607" ypos="48.7172" zpos="-102.044" type="utz.r.w5.river" GUID="xxDpK1zRRUGDPbVY8G6eyQ==" iconFile="Data/Marker/square.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="90.136" ypos="88.8973" zpos="-70.0747" type="utz.r.w5.river" GUID="Y3TvJ+7NEk6XecCwGaM/jQ==" iconFile="Data/Marker/square.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="103.054" ypos="119.271" zpos="-2.90448" type="utz.r.w5.river" GUID="DzXyh2XxgE6sKGvCWEDvVA==" iconFile="Data/Marker/square.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-56.6219" ypos="53.5535" zpos="12.8925" type="utz.r.w5.river"GUID="73GLMudDW0Wv8kxK3gTieg==" iconFile="Data/Marker/portal_in.png" iconSize="0.5" alpha="0.8" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="8.70314" ypos="40.0413" zpos="-94.6941" type="utz.r.w5.river" GUID="EEtgre2IP0+dnEgcXLYzCQ==" iconFile="Data/Marker/portal_out.png" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
+	
+	<!-- King -->
+		<POI MapID="1264" xpos="115.179" ypos="111.408" zpos="219.407" type="utz.r.w5.king.c" GUID="8/q9tIhr0U+GeEkg0ITenA==" iconFile="Data/Marker/arrow.png" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1264" xpos="131.988" ypos="111.515" zpos="206.891" type="utz.r.w5.king.c" GUID="XNqPOR8dbkyXxn2DqR0mqw==" iconFile="Data/Marker/circle.png" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1264" xpos="119.173" ypos="112.171" zpos="190.4" type="utz.r.w5.king.c" GUID="RYcKkqTBbUuqaterpwCMSg==" iconFile="Data/Marker/heart.png" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1264" xpos="103.029" ypos="110.779" zpos="204.24" type="utz.r.w5.king.c" GUID="733z0W5IZUaShtE4mgXpiA==" iconFile="Data/Marker/square.png" fadeNear="4000" fadeFar="4100"/>
+	
+	<!-- Souleater -->
+		<POI MapID="1264" xpos="99.4171" ypos="99.7539" zpos="-205.722" type="utz.r.w5.soul.c" GUID="v+HU6LntekCFl1rrej5oOQ==" iconFile="Data/Marker/arrow.png" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1264" xpos="63.4425" ypos="99.5963" zpos="-218.364" type="utz.r.w5.soul.c" GUID="HAN0OrmbvUWcJk1J3eiugw==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="52.4941" ypos="99.7004" zpos="-186.985" type="utz.r.w5.soul.c" GUID="XoiP7CU+gEu07CmHlOhG6Q==" iconFile="Data/Marker/heart.png" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1264" xpos="88.4335" ypos="99.6712" zpos="-174.704" type="utz.r.w5.soul.c" GUID="yK6Scl7k4UmRhjhAZCkSDA==" iconFile="Data/Marker/square.png" fadeNear="3000" fadeFar="3100"/>
+	
+	<!-- Eyes -->
+		<POI MapID="1264" xpos="395.489" ypos="98.851" zpos="2.83873" type="utz.r.w5.eyes" GUID="zIss06E3LkaLEOYXxkWAeQ==" iconFile="Data/Marker/1r.png" iconSize="0.5" fadeNear="5000" fadeFar="3100"/>
+		<POI MapID="1264" xpos="389.944" ypos="98.851" zpos="3.7596" type="utz.r.w5.eyes" GUID="BhKLor+elkS6eoAhhBYs0A==" iconFile="Data/Marker/2r.png" iconSize="0.5" fadeNear="5000"/>
+	
+	<!-- Dhuum -->
+		<POI MapID="1264" xpos="429.051" ypos="158.623" zpos="30.7413" type="utz.r.w5.dhuum.c" GUID="+NVxEzOMik6N+SeDeue4Zw==" iconFile="Data/Marker/arrow.png" fadeNear="5000" fadeFar="5100" heightOffset="-0.5"/>
+		<POI MapID="1264" xpos="427.904" ypos="158.665" zpos="1.97305" type="utz.r.w5.dhuum.c" GUID="Ds1W1dwIiU+mpKNDSeWn3g==" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100" heightOffset="-0.5"/>
+		<POI MapID="1264" xpos="404.808" ypos="158.64" zpos="-14.862" type="utz.r.w5.dhuum.c" GUID="4WtBMqzD3EyiDx31XT6i2w==" iconFile="Data/Marker/heart.png" fadeNear="4500" fadeFar="4600" heightOffset="-0.5"/>
+		<POI MapID="1264" xpos="377.819" ypos="158.657" zpos="-6.60314" type="utz.r.w5.dhuum.c" GUID="y/BRpS+U50SiX8FY8E51sw==" iconFile="Data/Marker/square.png" fadeNear="3500" fadeFar="3600" heightOffset="-0.5"/>
+		<POI MapID="1264" xpos="365.887" ypos="158.668" zpos="19.4137" type="utz.r.w5.dhuum.c" GUID="0hLGImDyUkOeolGOG0XjRA==" iconFile="Data/Marker/star.png" fadeNear="3000" fadeFar="3100" heightOffset="-0.5"/>
+		<POI MapID="1264" xpos="379.1" ypos="158.635" zpos="44.71" type="utz.r.w5.dhuum.c" GUID="TWVZ0voY9U2vNN7D1pGtkA==" iconFile="Data/Marker/spiral.png" fadeNear="3500" fadeFar="3600" heightOffset="-0.5"/>
+		<POI MapID="1264" xpos="407.779" ypos="158.56" zpos="50.0276" type="utz.r.w5.dhuum.c" GUID="dwH+hhAXqE2QkW3yA8qVhA==" iconFile="Data/Marker/triangle.png" fadeNear="4500" fadeFar="4600" heightOffset="-0.5"/>		
+		
+	</POIs>
+</OverlayData>
