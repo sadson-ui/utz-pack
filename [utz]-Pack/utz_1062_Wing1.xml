@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!-- 2023.12.29 -->
+<OverlayData>
+  <MarkerCategory name="utz" DisplayName="[utz]-Pack">
+	<MarkerCategory name="r" DisplayName="Raids">
+		<MarkerCategory name="w1" DisplayName="Wing 1">
+			<MarkerCategory name="vg" displayname="Vale Guardian">
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png" fadeNear="700" fadeFar="800" miniMapVisibility="0"/>
+				<MarkerCategory name="shroom1" displayName="Speedshroom" iconFile="Data/Marker/Speed_Mushroom.png" alpha="0.8" fadeNear="3000" fadeFar="3100" heightOffset="3" behavior="4" hasCountdown="1" resetLength="20" triggerRange="1.7" miniMapVisibility="0"/>
+			</MarkerCategory>
+			<MarkerCategory name="spirits" displayname="Spirit Woods">
+				<MarkerCategory name="p_i" displayName="Portal_In" iconFile="Data/Marker/portal_in.png" iconSize="0.5" alpha="1" fadeNear="2000" fadeFar="2100" miniMapVisibility="0"/>
+				<MarkerCategory name="p_o" displayName="Portal_Out" iconFile="Data/Marker/portal_out.png" iconSize="0.5" alpha="1" fadeNear="2000" fadeFar="2100" miniMapVisibility="0"/>
+				<MarkerCategory name="blink" displayName="Blink" iconFile="Data/Marker/blink.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
+				<MarkerCategory name="1" displayName="One" iconFile="Data/Marker/1.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="2" displayName="Two" iconFile="Data/Marker/2.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="3" displayName="Three" iconFile="Data/Marker/3.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="4" displayName="Four" iconFile="Data/Marker/4.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="5" displayName="Five" iconFile="Data/Marker/5.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="shroom2" displayName="Adrenalshroom" iconFile="Data/Marker/gold_coin.png" fadeNear="5500" fadeFar="5600" iconSize="0.5" alpha="0.8" heightOffset="3" behavior="4" hasCountdown="1" resetLength="30" triggerRange="1.7" miniMapVisibility="0"/>
+			</MarkerCategory>
+			<MarkerCategory name="gorse" displayname="Gorseval">
+				<MarkerCategory name="c" displayname="Commandermarker">
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+				</MarkerCategory>
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png" fadeNear="1500" fadeFar="1600" miniMapVisibility="0"/>	
+			</MarkerCategory>
+			<MarkerCategory name="bandits" displayname="Bandits">
+				<MarkerCategory name="p_i" displayName="Portal_In" iconFile="Data/Marker/portal_in.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="p_o" displayName="Portal_Out" iconFile="Data/Marker/portal_out.png" iconSize="0.5" alpha="1" fadeNear="2500" fadeFar="2600"/>
+				<MarkerCategory name="blink" displayName="Blink" iconFile="Data/Marker/blink.png" iconSize="0.5" alpha="1" fadeNear="2500" fadeFar="2600"/>
+			</MarkerCategory>
+			<MarkerCategory name="sab" displayname="Sabetha">
+				<MarkerCategory name="c" displayname="Commandermarker">
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
+				</MarkerCategory>
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png" heightOffset="3" fadeNear="1000" fadeFar="1100" miniMapVisibility="0"/>
+			</MarkerCategory>
+		</MarkerCategory>
+	 </MarkerCategory>
+	</MarkerCategory>
+	
+	<POIs>
+	<!-- VG -->
+		<POI MapID="1062" xpos="-97.0024" ypos="60.5413" zpos="-559.843" type="utz.r.w1.vg.alert" GUID="pA65FphCfE2ui3uWUJcmgA=="/>
+		<POI MapID="1062" xpos="-91.0706"  ypos="60.9373" zpos="-506.081" type="utz.r.w1.vg.shroom1" GUID="zEHLfs2R5UWeu6oPbCjmjw=="/>
+		<POI MapID="1062" xpos="-151.658"  ypos="60.9373" zpos="-507.339" type="utz.r.w1.vg.shroom1" GUID="9Uxdu7gOCUuU64i0Fz/Qrw=="/>
+		<POI MapID="1062" xpos="-121.094"  ypos="60.9373" zpos="-559.273" type="utz.r.w1.vg.shroom1" GUID="T7mx5vU0IUq7EOv1EMrsZg=="/>
+	
+	<!-- Spirit Woods -->
+		<POI MapID="1062" xpos="-109.174" ypos="42.2128" zpos="-355.746" type="utz.r.w1.spirits.shroom2" GUID="jGDkh991m0ayAoQuAPNV0A=="/>
+		<POI MapID="1062" xpos="-63.2308" ypos="35.9227" zpos="-328.234" type="utz.r.w1.spirits.shroom2" GUID="RAbjrNi9vEW2LZvioieKTA=="/>
+		<POI MapID="1062" xpos="-67.9477" ypos="35.9943" zpos="-328.772" type="utz.r.w1.spirits.p_i" GUID="0hVddjo9RkyrcbBIv8N0Og=="/>
+		<POI MapID="1062" xpos="-78.6167" ypos="37.8841" zpos="-302.497" type="utz.r.w1.spirits.p_i" GUID="vaCiBvTtTUqSoyp0qX/3qA=="/>
+		<POI MapID="1062" xpos="-85.2887" ypos="43.2505" zpos="-207.23" type="utz.r.w1.spirits.p_o" GUID="fz133kpbo0uWEXRPV9veCw=="/>
+		<POI MapID="1062" xpos="-217.878" ypos="39.3911" zpos="-228.927" type="utz.r.w1.spirits.p_i" GUID="pEgTqt2MzkW57Uee/LO8jQ=="/>
+		<POI MapID="1062" xpos="-228.983" ypos="55.0473" zpos="-187.04" type="utz.r.w1.spirits.p_o" GUID="kMZV3rEiM0uMvrBuUwjFxA=="/>
+		<POI MapID="1062" xpos="-245.164" ypos="42.9864" zpos="-119.92" type="utz.r.w1.spirits.p_i" GUID="iY4YzOcG0kqrchjKd0YVwQ=="/>
+		<POI MapID="1062" xpos="-253.297" ypos="33.8477" zpos="-64.6853" type="utz.r.w1.spirits.blink" GUID="kbBW6qSctk+B3QGJZ9AIhQ=="/>
+		<POI MapID="1062" xpos="-233.208" ypos="35.3337" zpos="-27.3327" type="utz.r.w1.spirits.blink" GUID="QFL069E4B0G2xP0GCW+UBQ=="/>
+		<POI MapID="1062" xpos="-226.225" ypos="35.3656" zpos="-22.2792" type="utz.r.w1.spirits.p_o" GUID="bau+aa/g/k+qFqBIGZgPqw=="/>
+		<POI MapID="1062" xpos="-153.666" ypos="74.0996" zpos="-82.9582" type="utz.r.w1.spirits.blink" GUID="hJ07FnhwgEWsN+7R3d0NuA=="/>
+		<POI MapID="1062" xpos="-150.819" ypos="58.5661" zpos="-64.9569" type="utz.r.w1.spirits.1" GUID="a1XGOS9rak+7OCdoDv+sHw=="/>
+		<POI MapID="1062" xpos="-97.2186" ypos="80.3319" zpos="-93.1565" type="utz.r.w1.spirits.2" GUID="Rjl/0ToXEkSVQptPDQ1fmw=="/>
+		<POI MapID="1062" xpos="-102.599" ypos="72.9075" zpos="-79.8" type="utz.r.w1.spirits.3" GUID="n4E+HjZrBEyoo/OYJyku4g=="/>
+		<POI MapID="1062" xpos="-159.763" ypos="70.8901" zpos="-142.483" type="utz.r.w1.spirits.4" GUID="LOa7kY5qTEy6HaS3dLqrXw=="/>
+		<POI MapID="1062" xpos="-106.656" ypos="61.1156" zpos="-167.145" type="utz.r.w1.spirits.5" GUID="lKGeyTR/pUyD2YucuMM3sA=="/>
+	
+	<!-- Gorseval -->
+		<POI MapID="1062" xpos="-51.779" ypos="51.0395" zpos="-104.422" type="utz.r.w1.gorse.alert" GUID="0BBnsdHbCkWYMo3snU34Kw=="/>
+		<POI MapID="1062" xpos="21.9401" ypos="50.232" zpos="-135.054" type="utz.r.w1.gorse.c.ar" GUID="+yBk3+wgOEGCYoyRvROSfA=="/>
+		<POI MapID="1062" xpos="62.4441" ypos="50.4367" zpos="-131.908" type="utz.r.w1.gorse.c.ci" GUID="8nB00qvXVkGPVx1o7BW+6Q=="/>
+	
+	<!-- Bandits -->
+		<POI MapID="1062" xpos="20.3834" ypos="31.7811" zpos="96.3106" type="utz.r.w1.bandits.p_i" GUID="sMD5VO2tE0mDpQbE22sMYg=="/>
+		<POI MapID="1062" xpos="9.85717" ypos="48.8736" zpos="124.582" type="utz.r.w1.bandits.blink" GUID="CoAycaICoUqaP8Z1JmcMeA=="/>
+		<POI MapID="1062" xpos="-8.84857" ypos="68.7055" zpos="197.86" type="utz.r.w1.bandits.p_o" GUID="L+3k++tFMket5Ixfl855LA=="/>
+		<POI MapID="1062" xpos="-16.7245" ypos="67.7554" zpos="206.285" type="utz.r.w1.bandits.p_i" GUID="oRHB3EBCOUCiROSNMG8KkA=="/>
+		<POI MapID="1062" xpos="-46.8725" ypos="75.4707" zpos="148.883" type="utz.r.w1.bandits.p_o" GUID="GJiCmJSL0kS67Difhbqz/w=="/>
+	
+	<!-- Sabetha -->
+		<POI MapID="1062" xpos="-79.9386" ypos="70.3303" zpos="131.732" type="utz.r.w1.sab.alert" GUID="msBAdQkEEUG9hDCv7x2iVg=="/>
+		<POI MapID="1062" xpos="-132.466" ypos="62.9644" zpos="55.9723" type="utz.r.w1.sab.c.ar" GUID="zke3pDO02kysVQ5YfURS7w=="/>
+		<POI MapID="1062" xpos="-157.799" ypos="62.269" zpos="86.943" type="utz.r.w1.sab.c.ci" GUID="t6ykk89ej0aldZxJRIl00Q=="/>
+		<POI MapID="1062" xpos="-126.986" ypos="62.95" zpos="111.883" type="utz.r.w1.sab.c.he" GUID="ZRGg6qu/nEahfhqJrayqiw=="/>
+		<POI MapID="1062" xpos="-101.692" ypos="63.0427" zpos="81.0458" type="utz.r.w1.sab.c.sq" GUID="bucwUpJHVEyByGljAVOIVQ=="/>
+		
+		
+
+
+	</POIs>
+</OverlayData>

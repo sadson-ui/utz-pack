@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!-- 2023.12.29 -->
+<OverlayData>
+	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
+	 <MarkerCategory name="r" DisplayName="Raids">
+		<MarkerCategory name="w6" DisplayName="Wing 6">
+			<MarkerCategory name="ca" displayname="Conjured Amalgamate">
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+			</MarkerCategory>
+			<MarkerCategory name="s&a" displayname="Dhuum">
+				<MarkerCategory name="ooze" displayName="Ooze" iconFile="Data/Marker/ooze.png"/>
+				<MarkerCategory name="toys" displayName="Toys" iconFile="Data/Marker/toys.png"/>
+			</MarkerCategory>
+			<MarkerCategory name="twins" displayname="Twin Largos">
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+				<MarkerCategory name="1r" displayName="1red" iconFile="Data/Marker/1r.png"/>
+				<MarkerCategory name="2r" displayName="2red" iconFile="Data/Marker/2r.png"/>
+			</MarkerCategory>
+			<MarkerCategory name="q1" displayname="Qadim">
+				<MarkerCategory name="c" displayname="Commandermarker">
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+					<MarkerCategory name="x" displayName="X" iconFile="Data/Marker/cross.png"/>
+				</MarkerCategory>
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+			</MarkerCategory>
+		</MarkerCategory>
+	 </MarkerCategory>
+	</MarkerCategory>
+
+	<POIs>
+	<!-- CA -->
+		<POI MapID="1303" xpos="-161.731" ypos="67.0536" zpos="-347.598" type="utz.r.w6.ca" GUID="fnTwWADrjEaDNbUB7c8Ygw==" fadeNear="2000" fadeFar="2100" miniMapVisibility="0"/>
+	
+	<!-- Sorting and Appraisal -->
+		<POI MapID="1303" xpos="148.214" ypos="91.1184" zpos="-289.323" type="utz.r.w6.s&a.ooze" GUID="sGFYpL3z/k6aiBy9707MnA==" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1303" xpos="48.3715" ypos="89.0281" zpos="-233.044" type="utz.r.w6.s&a.ooze" GUID="Llb9OTmDskeVpLWMDWTfpg==" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1303" xpos="177.463" ypos="91.2875" zpos="-332.595" type="utz.r.w6.s&a.toys" GUID="i7piCGohPkizp+EGaL2Xtg==" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1303" xpos="222.719" ypos="178.896" zpos="-230.48" type="utz.r.w6.s&a.toys" GUID="1bAvaKWUG0iPdIP3H1fFqw==" fadeNear="3000" fadeFar="3200"/>
+	
+	<!-- Twins -->
+		<POI MapID="1303" xpos="367.204" ypos="43.2992" zpos="-160.214" type="utz.r.w6.twins.alert" GUID="syWkkYmdhEeisuFHcAozjA==" fadeNear="2000" fadeFar="2100" miniMapVisibility="0"/>
+		<POI MapID="1303" xpos="354.126" ypos="33.5572" zpos="8.25919" type="utz.r.w6.twins.2r" GUID="cNL+Eio9pE2BK2aKRRSfzg==" iconSize="1.5"fadeNear="2000" fadeFar="2100"/> <!-- 2 -->
+		<POI MapID="1303" xpos="378.97" ypos="33.5572" zpos="7.60943" type="utz.r.w6.twins.1r" GUID="9TGPcU59S0eRWoEz+X3wIg==" iconSize="1.5"fadeNear="2000" fadeFar="2100"/> <!-- 1 -->
+	
+	<!-- Pre Q1 -->
+		<POI MapID="1303" xpos="18.4097" ypos="24.7983" zpos="324.798" type="utz.r.w6.preq1.p_i" GUID="ykMD6lHcKEKsN+F72hCudw==" fadeNear="2000" fadeFar="2100"/>
+		<POI MapID="1303" xpos="27.0551" ypos="121.289" zpos="354.518" type="utz.r.w6.preq1.p_o" GUID="/nYjs19uM06PAwN2g0ZdMw==" fadeNear="2000" fadeFar="2100"/>
+		<POI MapID="1303" xpos="24.8554" ypos="121.289" zpos="345.97" type="utz.r.w6.preq1.p_i" GUID="PuRQF0x7lUCAxx2YMh3y6Q==" fadeNear="2000" fadeFar="2100"/>
+		<POI MapID="1303" xpos="22.2797" ypos="121.289" zpos="267.963" type="utz.r.w6.preq1.p_o" GUID="/kD2AYG7E02LCdMhEaICcA==" fadeNear="2000" fadeFar="2100"/>
+	
+	<!-- Q1 -->
+		<POI MapID="1303" xpos="-37.5738" ypos="127.845" zpos="306.999" type="utz.r.w6.q1.alert" GUID="pAiObiFmwkmUrNS6MVu6AA==" fadeNear="1000" fadeFar="1100" miniMapVisibility="0"/>
+		<POI MapID="1303" xpos="-202.6869" ypos="120.1684" zpos="331.5096" type="utz.r.w6.q1.c.ar" GUID="lYu4CtEqhUWCxBlnGyOtWg==" fadeNear="4500" fadeFar="4600" heightOffset="-0.5"/>
+		<POI MapID="1303" xpos="-183.2624" ypos="120.1684" zpos="297.8162" type="utz.r.w6.q1.c.ci" GUID="JyJgoGS16U6+z3xENl6T2Q==" fadeNear="4500" fadeFar="4600" heightOffset="-0.5"/>
+		<POI MapID="1303" xpos="-160.1369" ypos="120.1684" zpos="306.6699" type="utz.r.w6.q1.c.x" GUID="qo+PbtaCfEK4n3ltHUUu5Q==" fadeNear="4500" fadeFar="4600" heightOffset="-0.5"/>
+	</POIs>
+</OverlayData>

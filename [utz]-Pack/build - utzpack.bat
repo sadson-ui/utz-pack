@@ -5,7 +5,7 @@
 del ".\utzpack.taco"
 
 :: uses WinRar to create a zip out of \Data and \YOUR XML
-"C:\Program Files\WinRAR\WinRAR.exe" a -afzip -ep1 -ibck -r -y ".\utzpack.zip" ".\Data" ".\_markerCategories.xml" ".\Strikes.xml" ".\1062-Wing1.xml" ".\1149-Wing2.xml" ".\1156-Wing3.xml" ".\1188-Wing4.xml" ".\1264-Wing5.xml" ".\1303-Wing6.xml" ".\1323-Wing7.xml"*
+"C:\Program Files\WinRAR\WinRAR.exe" a -afzip -ep1 -ibck -r -y ".\utzpack.zip" ".\Data" ".\_markerCategories.xml" ".\utz_Strikes.xml" ".\utz_1062_Wing1.xml" ".\utz_1149_Wing2.xml" ".\utz_1156_Wing3.xml" ".\utz_1188_Wing4.xml" ".\utz_1264_Wing5.xml" ".\utz_1303_Wing6.xml" ".\utz_1323_Wing7.xml" ".\utz_blkf.xml" ".\utz_missing.xml"*
 
 :: renames the zip to taco
 rename "utzpack.zip" "utzpack.taco"

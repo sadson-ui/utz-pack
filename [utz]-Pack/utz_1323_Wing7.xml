@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!-- 2023.12.29 -->
+<OverlayData>
+	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
+	 <MarkerCategory name="r" DisplayName="Raids">
+		<MarkerCategory name="w7" DisplayName="Wing 7">
+			<MarkerCategory name="pre" displayname="Preparation">
+				<MarkerCategory name="1r" displayName="1red" iconFile="Data/Marker/1r.png"/>
+				<MarkerCategory name="2r" displayName="2red" iconFile="Data/Marker/2r.png"/>
+			</MarkerCategory>
+			<MarkerCategory name="adina" displayname="Adina">
+				<MarkerCategory name="c" displayname="Commandermarker">
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+					<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png"/>
+				</MarkerCategory>
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+			</MarkerCategory>
+			<MarkerCategory name="sabir" displayname="Sabir">
+				<MarkerCategory name="p_i" displayName="Portal_In" iconFile="Data/Marker/portal_in.png"/>
+				<MarkerCategory name="p_o" displayName="Portal_Out" iconFile="Data/Marker/portal_out.png"/>
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+			</MarkerCategory>
+			<MarkerCategory name="q2" displayname="Qadim the Peerless">
+				<MarkerCategory name="c" displayname="Commandermarker">
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+				</MarkerCategory>
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>
+			</MarkerCategory>
+		</MarkerCategory>
+	 </MarkerCategory>				
+	</MarkerCategory>
+	
+	<POIs>
+	<!-- Pre Split -->
+		<POI MapID="1323" xpos="24.9466" ypos="18.758" zpos="-68.0765" type="utz.r.w7.pre.1r" GUID="x7Os8i1a5UC+IOk3Tc6zqQ==" heightOffset="3" iconSize="1.5" alpha="1" fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>
+		<POI MapID="1323" xpos="57.7186" ypos="18.758" zpos="-68.1828" type="utz.r.w7.pre.2r" GUID="sTpOFN11C0+kWXml1SIy3g==" heightOffset="3" iconSize="1.5" alpha="1" fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>
+	
+	<!-- Adina -->
+		<POI MapID="1323" xpos="368.3367" ypos="7.753" zpos="-35.1284" type="utz.r.w7.adina.c.ar" GUID="m+Br69JzIESl+PW8vxWEPg==" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1323" xpos="370.7757" ypos="7.753" zpos="-30.2117" type="utz.r.w7.adina.c.ci" GUID="uC5NbjpY50q4vOsn5Ty6OQ==" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1323" xpos="379.4796" ypos="7.753" zpos="-28.1179" type="utz.r.w7.adina.c.he" GUID="SN6cNjWUNUixogTHbvuxVA==" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1323" xpos="386.2661" ypos="7.753" zpos="-30.87" type="utz.r.w7.adina.c.sq" GUID="1xF6a1LofkyucEw6O9Xj5A==" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1323" xpos="389.6114" ypos="7.753" zpos="-37.7576" type="utz.r.w7.adina.c.st" GUID="43Bvz39p5kiJqI/mXYiMXw==" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+	
+	<!-- Sabir -->
+		<POI MapID="1323" xpos="-322.414" ypos="51.8386" zpos="80.6657" type="utz.r.w7.sabir.p_i" GUID="ZuNoKZekOUuYyEClK+pCcQ==" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1323" xpos="-256.878" ypos="78.1359" zpos="31.5863" type="utz.r.w7.sabir.p_o" GUID="l8maSF7Oq0aqwVsE99oEXw==" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<POI MapID="1323" xpos="-306.608" ypos="84.8862" zpos="19.1138" type="utz.r.w7.sabir.p_i" GUID="eiQz45KeSEePslec1DVnpw==" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+		<!--<POI MapID="1323" xpos="-256.878" ypos="78.1359" zpos="31.5863" type="utz.r.w7.sabir.p_o" GUID="" " iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>-->
+		
+	<!-- Q2 -->
+		<POI MapID="1323" xpos="41.3902" ypos="16.8137" zpos="217.312" type="utz.r.w7.q2.c.ar" GUID="8rQm3VD9zUmN+G6RFwqhrw=="heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="5000" fadeFar="5200"/>
+		<POI MapID="1323" xpos="74.3955" ypos="16.8168" zpos="275.42" type="utz.r.w7.q2.c.ci" GUID="Wo/Uo9YVZ0ykP9ylJJinFQ=="heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="5000" fadeFar="5200"/>
+		<POI MapID="1323" xpos="7.9651" ypos="16.8125" zpos="275.01" type="utz.r.w7.q2.c.he" GUID="DJuBQ9XJXEWlOHz6bcnWNQ==" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="5000" fadeFar="5200"/>
+	</POIs>
+</OverlayData>
