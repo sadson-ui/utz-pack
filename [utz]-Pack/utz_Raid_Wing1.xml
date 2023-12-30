@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- 2023.12.29 -->
+<!-- 2023.12.30 -->
 <OverlayData>
   <MarkerCategory name="utz" DisplayName="[utz]-Pack">
 	<MarkerCategory name="r" DisplayName="Raids">
@@ -17,7 +17,7 @@
 				<MarkerCategory name="3" displayName="Three" iconFile="Data/Marker/3.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
 				<MarkerCategory name="4" displayName="Four" iconFile="Data/Marker/4.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
 				<MarkerCategory name="5" displayName="Five" iconFile="Data/Marker/5.png" iconSize="0.5" alpha="1" fadeNear="4000" fadeFar="4100"/>
-				<MarkerCategory name="shroom2" displayName="Adrenalshroom" iconFile="Data/Marker/gold_coin.png" fadeNear="5500" fadeFar="5600" iconSize="0.5" alpha="0.8" heightOffset="3" behavior="4" hasCountdown="1" resetLength="30" triggerRange="1.7" miniMapVisibility="0"/>
+				<MarkerCategory name="shroom2" displayName="Adrenalshroom" iconFile="Data/Marker/Adrenal_Mushroom.png" fadeNear="5500" fadeFar="5600" iconSize="0.5" alpha="0.8" heightOffset="3" behavior="4" hasCountdown="1" resetLength="30" triggerRange="1.7" miniMapVisibility="0"/>
 			</MarkerCategory>
 			<MarkerCategory name="gorse" displayname="Gorseval">
 				<MarkerCategory name="c" displayname="Commandermarker">

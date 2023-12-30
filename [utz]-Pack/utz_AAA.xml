@@ -4,13 +4,13 @@
 <OverlayData>
 
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
-	 <MarkerCategory name="separatormenu11" IsSeparator="1" DisplayName="v1.0.2 | 30.12.2023"/>
+	 <MarkerCategory name="separatormenu11" IsSeparator="1" DisplayName="v1.0.3b | 30.12.2023 "/>
 	<!-- Missing --> <!-- one xml -->
 	<MarkerCategory name="info" DisplayName="Missing stuff ">
 	 <MarkerCategory name="separatormenu01" IsSeparator="1" DisplayName="-- MISSING --"/>
 	</MarkerCategory>
 		
-	<!-- Raids --><!-- multiple xmls -->
+	<!-- Raids --><!-- all wings in here cause different xmls -->
 	<MarkerCategory name="r" DisplayName="Raids">
 		<MarkerCategory name="separatormenu02" IsSeparator="1" DisplayName="-- RAIDS --"/>
 	</MarkerCategory>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- 2023.12.29 -->
+<!-- 2023.12.30 -->
 <OverlayData>
 	<POIs>
 	<!--
@@ -7,9 +7,9 @@
 	*                                                                          *
 	*                       	   BLKF				                           *
 	*                                                                          *
-	****************************************************************************-->
+	****************************************************************************
 	<POI MapID="138" xpos="-378.318" ypos="72.5919" zpos="584.822" type="utz.stuff.blkf" GUID="ymhpesmwb0OC3t3pZJz8FA==" iconFile="Data/Marker/blkf/start_blkf.png" iconSize="1.5"  miniMapVisibility="0" heightOffset="3" />
 	<POI MapID="138" xpos="-390.63" ypos="72.4087" zpos="591.767" type="utz.stuff.blkf" GUID="TDmTjymN20Gp3yoh42potw==" iconFile="Data/Marker/blkf/blkf_equip.png" iconSize="1.5"  miniMapVisibility="0" heightOffset="3" />
-	
+	-->
 	</POIs>
 </OverlayData>
