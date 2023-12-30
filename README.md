@@ -6,4 +6,6 @@ Including marker for raids and eod/soto strikes
 
 Actually only working with taco
 
-v.1.0.1: fixed some marker problems
+v1.0.1: fixed some marker problems
+
+v1.0.2: fixed blishhud compatibility
