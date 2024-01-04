@@ -6,8 +6,8 @@ Including marker for raids and eod/soto strikes
 
 Actually only working with taco
 
-v1.0.1: fixed some marker problems
+v1.0.4:
 
-v1.0.2: fixed blishhud compatibility
-
-v1.0.3b: new adrenal mushroom icon, fixed some markers
+- added multiple change/check subgrp alerts
+- added sabir portal marker
+- changed some marker settings
