@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- 2023.12.29 -->
+<!-- 2024.01.04 -->
 <OverlayData>
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
 	 <MarkerCategory name="r" DisplayName="Raids">
@@ -37,8 +37,8 @@
 	
 	<POIs>
 	<!-- Pre Split -->
-		<POI MapID="1323" xpos="24.9466" ypos="18.758" zpos="-68.0765" type="utz.r.w7.pre.1r" GUID="x7Os8i1a5UC+IOk3Tc6zqQ==" heightOffset="3" iconSize="1.5" alpha="1" fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>
-		<POI MapID="1323" xpos="57.7186" ypos="18.758" zpos="-68.1828" type="utz.r.w7.pre.2r" GUID="sTpOFN11C0+kWXml1SIy3g==" heightOffset="3" iconSize="1.5" alpha="1" fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>
+		<POI MapID="1323" xpos="1.67833" ypos="30.036" zpos="-51.2" type="utz.r.w7.pre.1r" GUID="x7Os8i1a5UC+IOk3Tc6zqQ==" heightOffset="3" iconSize="5" alpha="1" fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>
+		<POI MapID="1323" xpos="82.1203" ypos="29.9843" zpos="-51.5618" type="utz.r.w7.pre.2r" GUID="sTpOFN11C0+kWXml1SIy3g==" heightOffset="3" iconSize="5" alpha="1" fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>
 	
 	<!-- Adina -->
 		<POI MapID="1323" xpos="368.3367" ypos="7.753" zpos="-35.1284" type="utz.r.w7.adina.c.ar" GUID="m+Br69JzIESl+PW8vxWEPg==" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
@@ -51,7 +51,7 @@
 		<POI MapID="1323" xpos="-322.414" ypos="51.8386" zpos="80.6657" type="utz.r.w7.sabir.p_i" GUID="ZuNoKZekOUuYyEClK+pCcQ==" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
 		<POI MapID="1323" xpos="-256.878" ypos="78.1359" zpos="31.5863" type="utz.r.w7.sabir.p_o" GUID="l8maSF7Oq0aqwVsE99oEXw==" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
 		<POI MapID="1323" xpos="-306.608" ypos="84.8862" zpos="19.1138" type="utz.r.w7.sabir.p_i" GUID="eiQz45KeSEePslec1DVnpw==" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
-		<!--<POI MapID="1323" xpos="-256.878" ypos="78.1359" zpos="31.5863" type="utz.r.w7.sabir.p_o" GUID="" " iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>-->
+		<POI MapID="1323" xpos="-250.284" ypos="139.95" zpos="71.5073" type="utz.r.w7.sabir.p_o" GUID="ZfC08RumcEy6RvDfiqe6+w==" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
 		
 	<!-- Q2 -->
 		<POI MapID="1323" xpos="41.3902" ypos="16.8137" zpos="217.312" type="utz.r.w7.q2.c.ar" GUID="8rQm3VD9zUmN+G6RFwqhrw=="heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="5000" fadeFar="5200"/>

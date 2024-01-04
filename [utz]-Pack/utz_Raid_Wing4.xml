@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- 2023.12.30 -->
+<!-- 2024.01.04 -->
 <OverlayData>
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
 	 <MarkerCategory name="r" DisplayName="Raids">
@@ -50,26 +50,26 @@
 
 	<POIs>
 	<!-- Cairn -->
-		<POI MapID="1188" xpos="440.979" ypos="49.6401" zpos="48.002" type="utz.r.w4.cairn.alert" GUID="7bGRdmimV02oiRq7DT4vOw==" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
+		<POI MapID="1188" xpos="440.979" ypos="49.6401" zpos="48.002" type="utz.r.w4.cairn.alert" GUID="7bGRdmimV02oiRq7DT4vOw==" alpha="0.8" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
 		<POI MapID="1188" xpos="368.402" ypos="33.7203" zpos="57.7283" type="utz.r.w4.cairn.c.ar" GUID="5GxtfZ6bfUm6ANAz6389eA==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
 		<POI MapID="1188" xpos="370.01" ypos="33.7203" zpos="45.8865" type="utz.r.w4.cairn.c.ci" GUID="0DuAU7somECIscnuCwKEew==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
 		<POI MapID="1188" xpos="360.859" ypos="33.7203" zpos="44.1553" type="utz.r.w4.cairn.c.he" GUID="VnCBuk6zfUuPGkI+EDXwdg==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
 		<POI MapID="1188" xpos="356.779" ypos="33.7203" zpos="52.8065" type="utz.r.w4.cairn.c.sq" GUID="+PaF7LJ9ukm1YRk1p5/toA==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
 	
 	<!-- Mo Pre -->
-		<POI MapID="1188" xpos="195.418" ypos="34.4271" zpos="65.4301" type="utz.r.w4.mopre.p_i" GUID="GRBa8f8B0Ue8MlcUsB4trg==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1188" xpos="182.115" ypos="70.8469" zpos="44.0729" type="utz.r.w4.mopre.blink" GUID="4ti79stjxk22rU8jYEn4+w==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1188" xpos="151.784" ypos="105.462" zpos="111.357" type="utz.r.w4.mopre.p_o" GUID="UiZ5gGt4CEqJu2dJscBERQ==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1188" xpos="89.6463" ypos="105.773" zpos="162.324" type="utz.r.w4.mopre.p_i" GUID="VaZgpcuT7UaH6ZBlYuijUQ==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1188" xpos="10.0236" ypos="105.781" zpos="163.85" type="utz.r.w4.mopre.p_o" GUID="2cqKZ6OpvEazS1F9xAfycg==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1188" xpos="8.93357" ypos="105.781" zpos="154.909" type="utz.r.w4.mopre.p_i" GUID="ZMeGo90LcUOdz85qMDWp4Q==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1188" xpos="-48.2816" ypos="96.0415" zpos="192.02" type="utz.r.w4.mopre.p_o" GUID="Kre7b/cWpka0G7nFE+h9wQ==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1188" xpos="195.418" ypos="34.4271" zpos="65.4301" type="utz.r.w4.mopre.p_i" GUID="GRBa8f8B0Ue8MlcUsB4trg==" iconSize="1" alpha="1" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1188" xpos="182.115" ypos="70.8469" zpos="44.0729" type="utz.r.w4.mopre.blink" GUID="4ti79stjxk22rU8jYEn4+w==" iconSize="1" alpha="1" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1188" xpos="151.784" ypos="105.462" zpos="111.357" type="utz.r.w4.mopre.p_o" GUID="UiZ5gGt4CEqJu2dJscBERQ==" iconSize="1" alpha="1" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1188" xpos="89.6463" ypos="105.773" zpos="162.324" type="utz.r.w4.mopre.p_i" GUID="VaZgpcuT7UaH6ZBlYuijUQ==" iconSize="1" alpha="1" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1188" xpos="10.0236" ypos="105.781" zpos="163.85" type="utz.r.w4.mopre.p_o" GUID="2cqKZ6OpvEazS1F9xAfycg==" iconSize="1" alpha="1" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1188" xpos="8.93357" ypos="105.781" zpos="154.909" type="utz.r.w4.mopre.p_i" GUID="ZMeGo90LcUOdz85qMDWp4Q==" iconSize="1" alpha="1" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1188" xpos="-48.2816" ypos="96.0415" zpos="192.02" type="utz.r.w4.mopre.p_o" GUID="Kre7b/cWpka0G7nFE+h9wQ==" iconSize="1" alpha="1" fadeNear="5000" fadeFar="5100"/>
 	
 	<!-- Mo -->
-		<POI MapID="1188" xpos="-107.871" ypos="141.272" zpos="286.52" type="utz.r.w4.mo.alert" GUID="1OGR7t8EwECb2gNsTwQMNA==" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
+		<POI MapID="1188" xpos="89.0637" ypos="106.188" zpos="132.784" type="utz.r.w4.mo.alert" GUID="1OGR7t8EwECb2gNsTwQMNA==" alpha="0.8" heightOffset="3" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
 	
 	<!-- Samarog -->
-		<POI MapID="1188" xpos="-107.871" ypos="141.272" zpos="286.52" type="utz.r.w4.sama.alert" GUID="5EEuUi+wyUeVHf1oRdr5xg==" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
+		<POI MapID="1188" xpos="-57.3684" ypos="129.46" zpos="78.8447" type="utz.r.w4.sama.alert" GUID="5EEuUi+wyUeVHf1oRdr5xg==" alpha="0.8" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
 		<POI MapID="1188" xpos="-112.3085" ypos="129.5144" zpos="96.2403" type="utz.r.w4.sama.c.ar" GUID="ivSwa4lF3kO54+gsvdjKXA==" heightOffset="3" alpha="0.8" fadeNear="3000" fadeFar="3100"/>
 		<POI MapID="1188" xpos="-112.3085" ypos="129.5144" zpos="77.215" type="utz.r.w4.sama.c.ci" GUID="8prxIQyWy0C9UqBkU2xZmw=="  heightOffset="3" alpha="0.8" fadeNear="3000" fadeFar="3100"/>
 		<POI MapID="1188" xpos="-112.3085" ypos="129.5144" zpos="57.0027" type="utz.r.w4.sama.c.he" GUID="NsyVhnOeDESmR4f0vpDPIg=="  heightOffset="3" alpha="0.8" fadeNear="3000" fadeFar="3100"/>
@@ -78,7 +78,7 @@
 		<POI MapID="1188" xpos="-91.3247" ypos="129.5144" zpos="98.7813" type="utz.r.w4.sama.c.sp" GUID="G8QZ1C1jAE+uRznoYjDLpw==" heightOffset="3" alpha="0.8" fadeNear="3000" fadeFar="3100"/>
 	
 	<!-- Deimos -->
-		<POI MapID="1188" xpos="-107.871" ypos="141.272" zpos="286.52" type="utz.r.w4.deimos.alert" GUID="MldGpiIr50CzXlhnl0kzZg==" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
+		<POI MapID="1188" xpos="-177.521" ypos="116.972" zpos="121.093" type="utz.r.w4.deimos.alert" GUID="MldGpiIr50CzXlhnl0kzZg==" iconSize="2" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
 		<POI MapID="1188" xpos="-214.1826" ypos="101.9231" zpos="58.9384" type="utz.r.w4.deimos.c.ar" GUID="a3nMCCbjdEC3hT5A3QCpOw==" heightOffset="3" alpha="0.8" fadeNear="3000" fadeFar="3100"/>
 		<POI MapID="1188" xpos="-193.5928" ypos="101.9231" zpos="77.2513" type="utz.r.w4.deimos.c.ci" GUID="e+adh/PKoEGXyFL54hp+uQ==" heightOffset="3" alpha="0.8" fadeNear="3000" fadeFar="3100"/>
 		<POI MapID="1188" xpos="-213.2019" ypos="101.9231" zpos="98.3312" type="utz.r.w4.deimos.c.he" GUID="APRzwnjX3UiNXR2R7WKvmg==" heightOffset="3" alpha="0.8" fadeNear="3000" fadeFar="3100"/>

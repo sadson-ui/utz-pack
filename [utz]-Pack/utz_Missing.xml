@@ -1,15 +1,10 @@
 <?xml version="1.0"?>
-<!-- 2023.12.30 -->
+<!-- 2024.01.04 -->
 <OverlayData>
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
 		<MarkerCategory name="info" DisplayName="Missing stuff">
 			<MarkerCategory name="11" DisplayName="Matthias Alert"/>
 			<MarkerCategory name="12" DisplayName="maybe TC marker set"/>
-			<MarkerCategory name="14" DisplayName="Portal MO Pre"/>
-			<MarkerCategory name="15" DisplayName="MO Alert"/>
-			<MarkerCategory name="16" DisplayName="Samarog Alert"/>
-			<MarkerCategory name="17" DisplayName="Deimos Alert"/>
-			<MarkerCategory name="18" DisplayName="Portal Sabir"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>
