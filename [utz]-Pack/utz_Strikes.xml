@@ -1,52 +1,53 @@
 <?xml version="1.0"?>
-<!-- 2023.12.29 -->
+<!-- 2024.01.15 -->
 <OverlayData>
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
 	 <MarkerCategory name="str" DisplayName="Strikes">
 	  <MarkerCategory name="separatorstr1" IsSeparator="1" DisplayName="End of Dragons"/>
 		<MarkerCategory name="ah" DisplayName="Aetherblade Hideout">
 			<MarkerCategory name="c" displayname="Commandermarker">
-				<MarkerCategory name="ar" DisplayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-				<MarkerCategory name="ci" DisplayName="Circle" iconFile="Data/Marker/circle.png"/>
-				<MarkerCategory name="he" DisplayName="Heart" iconFile="Data/Marker/heart.png"/>
-				<MarkerCategory name="x" DisplayName="X" iconFile="Data/Marker/x.png"/>
+				<MarkerCategory name="ar" DisplayName="Arrow" iconFile="Data/Marker/arrow.png" iconSize="0.5" alpha="0.8"/>
+				<MarkerCategory name="ci" DisplayName="Circle" iconFile="Data/Marker/circle.png" iconSize="0.5" alpha="0.8"/>
+				<MarkerCategory name="he" DisplayName="Heart" iconFile="Data/Marker/heart.png" iconSize="0.5" alpha="0.8"/>
+				<MarkerCategory name="x" DisplayName="X" iconFile="Data/Marker/x.png" iconSize="0.5" alpha="0.8"/>
 			</MarkerCategory>	
-			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png"/>
+			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png" specialization="40,59,66" miniMapVisibility="0" iconSize="0.5" alpha="0.5" fadeNear="800" fadeFar="1000"/>
 		</MarkerCategory>
 		<MarkerCategory name="xjj" DisplayName="Xunlai Jade Junkyard">
 			<MarkerCategory name="c" displayname="Commandermarker">
-				<MarkerCategory name="ar" DisplayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-				<MarkerCategory name="ci" DisplayName="Circle" iconFile="Data/Marker/circle.png"/>
-				<MarkerCategory name="he" DisplayName="Heart" iconFile="Data/Marker/heart.png"/>
+				<MarkerCategory name="ar" DisplayName="Arrow" iconFile="Data/Marker/arrow.png" fadeNear="3000" fadeFar="3500"/>
+				<MarkerCategory name="ci" DisplayName="Circle" iconFile="Data/Marker/circle.png" fadeNear="3000" fadeFar="3500"/>
+				<MarkerCategory name="he" DisplayName="Heart" iconFile="Data/Marker/heart.png" fadeNear="3000" fadeFar="3500"/>
 			</MarkerCategory>	
-			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png"/>
+			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png" specialization="40,59,66" miniMapVisibility="0" fadeNear="1500" fadeFar="2000" triggerrange="1.5" info="Moa Signet!"/>
 		</MarkerCategory>
 		<MarkerCategory name="ko" DisplayName="Kaineng Overlook">
 			<MarkerCategory name="c" displayname="Commandermarker">
-				<MarkerCategory name="ar" DisplayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-				<MarkerCategory name="ci" DisplayName="Circle" iconFile="Data/Marker/circle.png"/>
-				<MarkerCategory name="he" DisplayName="Heart" iconFile="Data/Marker/heart.png"/>
-				<MarkerCategory name="sq" DisplayName="Square" iconFile="Data/Marker/square.png"/>
-				<MarkerCategory name="st" DisplayName="Star" iconFile="Data/Marker/star.png"/>
-				<MarkerCategory name="sp" DisplayName="Spiral" iconFile="Data/Marker/spiral.png"/>
-				<MarkerCategory name="tr" DisplayName="Triangle" iconFile="Data/Marker/triangle.png"/>
-				<MarkerCategory name="x" DisplayName="X" iconFile="Data/Marker/x.png"/>
+				<MarkerCategory name="ar" DisplayName="Arrow" iconFile="Data/Marker/arrow.png" iconSize="1" alpha="0.8"/>
+				<MarkerCategory name="ci" DisplayName="Circle" iconFile="Data/Marker/circle.png" iconSize="1" alpha="0.8"/>
+				<MarkerCategory name="he" DisplayName="Heart" iconFile="Data/Marker/heart.png" iconSize="1" alpha="0.8"/>
+				<MarkerCategory name="sq" DisplayName="Square" iconFile="Data/Marker/square.png" iconSize="1" alpha="0.8"/>
+				<MarkerCategory name="st" DisplayName="Star" iconFile="Data/Marker/star.png" iconSize="1" alpha="0.8"/>
+				<MarkerCategory name="sp" DisplayName="Spiral" iconFile="Data/Marker/spiral.png" iconSize="1" alpha="0.8"/>
+				<MarkerCategory name="tr" DisplayName="Triangle" iconFile="Data/Marker/triangle.png" iconSize="1" alpha="0.8"/>
+				<MarkerCategory name="x" DisplayName="X" iconFile="Data/Marker/x.png" iconSize="1" alpha="0.8"/>
 			</MarkerCategory>
-				<MarkerCategory name="shortbow" DisplayName="Shortbow" iconFile="Data/Marker/shortbow.png"/>
-				<MarkerCategory name="cuts" DisplayName="Cuts" iconFile="Data/Marker/thousandcuts.png"/>
+				<MarkerCategory name="shortbow" DisplayName="Shortbow" iconFile="Data/Marker/shortbow.png" heightOffset="5" specialization="52" miniMapVisibility="0" iconSize="1.3" fadeNear="700" fadeFar="1000" triggerrange="1.5" info="You may wanna use a shortbow"/>
+				<MarkerCategory name="cuts" DisplayName="Cuts" iconFile="Data/Marker/thousandcuts.png" heightOffset="5" specialization="66" miniMapVisibility="0" iconSize="1.3" fadeNear="700" fadeFar="1000" triggerrange="1.5" info="No Moa here
+				"/>
 		</MarkerCategory>
 		<MarkerCategory name="ht" DisplayName="Harvest Temple">
 		 </MarkerCategory>
 	  <MarkerCategory name="separatorstr2" IsSeparator="1" DisplayName="Core Tyria"/>
 		<MarkerCategory name="olc" DisplayName="Old Lion's Court">
-			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png"/>
+			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png" specialization="40,59,66" heightOffset="3" miniMapVisibility="0" alpha="1" fadeNear="1500" fadeFar="1600" triggerrange="1.5" info="Moa Signet!"/>
 		</MarkerCategory>
 	  <MarkerCategory name="separatorstr3" IsSeparator="1" DisplayName="Secrets of the Obscure"/>
 		<MarkerCategory name="co" DisplayName="Cosmic Observatory">
-			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png"/>
+			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png" specialization="40,59,66" heightOffset="3" miniMapVisibility="0" alpha="0.8" fadeNear="1500" fadeFar="1600" triggerrange="1.5" info="Moa Signet!"/>
 		</MarkerCategory>
 		<MarkerCategory name="tof" DisplayName="Temple of Febe">
-			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png"/>
+			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png" specialization="40,59,66" heightOffset="3" miniMapVisibility="0" alpha="0.8" fadeNear="1500" fadeFar="1600" triggerrange="1.5" info="Moa Signet!"/>
 		</MarkerCategory>
 	 </MarkerCategory>
 	</MarkerCategory>
@@ -59,13 +60,13 @@
 	*                                                                          *
 	****************************************************************************-->
 	
-		<POI MapID="1432" xpos="45.9849" ypos="46.2611" zpos="32.9468" type="utz.str.ah.moa" GUID="DfREUkdh90e8ougW0P4G9w==" miniMapVisibility="0" iconSize="0.5" alpha="0.5" fadeNear="800" fadeFar="1000"/>
+		<POI MapID="1432" xpos="45.9849" ypos="46.2611" zpos="32.9468" type="utz.str.ah.moa" GUID="DfREUkdh90e8ougW0P4G9w=="/>
 		<!-- Gather -->
-		<POI MapID="1432" xpos="80.6161" ypos="45.7352" zpos="55.8018" type="utz.str.ah.c.ar" GUID="UnEartYsgEm7k+/jYCag7w==" iconSize="0.5" alpha="0.8"/>
-		<POI MapID="1432" xpos="79.3554" ypos="45.7351" zpos="48.2065" type="utz.str.ah.c.ci" GUID="vGdk7sGDMEyWsZO4BRLVNQ==" iconSize="0.5" alpha="0.8"/>
-		<POI MapID="1432" xpos="86.9277" ypos="45.7351"	zpos="47.0636" type="utz.str.ah.c.he" GUID="E+1GZ/CDyUO8WYArkJ3KXA==" iconSize="0.5" alpha="0.8"/>
+		<POI MapID="1432" xpos="80.6161" ypos="45.7352" zpos="55.8018" type="utz.str.ah.c.ar" GUID="UnEartYsgEm7k+/jYCag7w=="/>
+		<POI MapID="1432" xpos="79.3554" ypos="45.7351" zpos="48.2065" type="utz.str.ah.c.ci" GUID="vGdk7sGDMEyWsZO4BRLVNQ=="/>
+		<POI MapID="1432" xpos="86.9277" ypos="45.7351"	zpos="47.0636" type="utz.str.ah.c.he" GUID="E+1GZ/CDyUO8WYArkJ3KXA=="/>
 		<!-- Stack -->
-		<POI MapID="1432" xpos="64.2257" ypos="45.957" zpos="48.0624" type="utz.str.ah.c.x" GUID="MUQNR71Q+km7Xf2WdkeJIQ==" iconSize="0.5" alpha="0.8"/>
+		<POI MapID="1432" xpos="64.2257" ypos="45.957" zpos="48.0624" type="utz.str.ah.c.x" GUID="MUQNR71Q+km7Xf2WdkeJIQ=="/>
 	
 	<!--
 	**************************************************************************** 
@@ -74,19 +75,19 @@
 	*                                                                          *
 	****************************************************************************-->
 		<!-- Start -->
-		<POI MapID="1450" xpos="-153.106" ypos="129.651" zpos="-39.9309" type="utz.str.xjj.moa" GUID="CXSdSilMF0GsMmd+aVVihA==" miniMapVisibility="0" fadeNear="1500" fadeFar="2000"/>
+		<POI MapID="1450" xpos="-153.106" ypos="129.651" zpos="-39.9309" type="utz.str.xjj.moa" GUID="CXSdSilMF0GsMmd+aVVihA=="/>
 		<!-- Phase 1 -->
-		<POI MapID="1450" xpos="-133.723" ypos="94.0979" zpos="-12.8483" type="utz.str.xjj.c.ar" GUID="1et0UxZpiUG8kX7ghYcAAw==" fadeNear="3000" fadeFar="3500"/>
-		<POI MapID="1450" xpos="-127.124" ypos="93.9625" zpos="-19.9441" type="utz.str.xjj.c.ci" GUID="A+FK1B7qd0qs7JUjHzwUFg==" fadeNear="3000" fadeFar="3500"/>
-		<POI MapID="1450" xpos="-120.444" ypos="94.2905" zpos="-26.7292" type="utz.str.xjj.c.he" GUID="mOCnYULR+Ey+sw8/lB2G7Q==" fadeNear="3000" fadeFar="3500"/>
+		<POI MapID="1450" xpos="-133.723" ypos="94.0979" zpos="-12.8483" type="utz.str.xjj.c.ar" GUID="1et0UxZpiUG8kX7ghYcAAw=="/>
+		<POI MapID="1450" xpos="-127.124" ypos="93.9625" zpos="-19.9441" type="utz.str.xjj.c.ci" GUID="A+FK1B7qd0qs7JUjHzwUFg=="/>
+		<POI MapID="1450" xpos="-120.444" ypos="94.2905" zpos="-26.7292" type="utz.str.xjj.c.he" GUID="mOCnYULR+Ey+sw8/lB2G7Q=="/>
 		<!-- Phase 2 -->
-		<POI MapID="1450" xpos="18.985" ypos="117.643" 	zpos="40.703" type="utz.str.xjj.c.ar" GUID="caMS/+ZALE2Vrd1MqM+TWQ==" fadeNear="3000" fadeFar="3500"/>
-		<POI MapID="1450" xpos="88.307" ypos="118.695" zpos="37.673" type="utz.str.xjj.c.ci" GUID="L8gft2N3aEyG7ZYCAfthow==" fadeNear="3000" fadeFar="3500"/>
-		<POI MapID="1450" xpos="66.61" ypos="119.851" zpos="-4.534" type="utz.str.xjj.c.he" GUID="imQCmKY1sE+mTqy8PKUDHQ==" fadeNear="3000" fadeFar="3500"/>
+		<POI MapID="1450" xpos="18.985" ypos="117.643" 	zpos="40.703" type="utz.str.xjj.c.ar" GUID="caMS/+ZALE2Vrd1MqM+TWQ=="/>
+		<POI MapID="1450" xpos="88.307" ypos="118.695" zpos="37.673" type="utz.str.xjj.c.ci" GUID="L8gft2N3aEyG7ZYCAfthow=="/>
+		<POI MapID="1450" xpos="66.61" ypos="119.851" zpos="-4.534" type="utz.str.xjj.c.he" GUID="imQCmKY1sE+mTqy8PKUDHQ=="/>
 		<!-- Phase 3 -->
-		<POI MapID="1450" xpos="-78.353" ypos="157.493" zpos="136.421" type="utz.str.xjj.c.ar" 	GUID="AbRAG6y7f0q3xPgzjZYddQ=="	fadeNear="3000" fadeFar="3500"/>
-		<POI MapID="1450" xpos="-44.588" ypos="157.411" zpos="108.224" type="utz.str.xjj.c.ci" GUID="OwWuO/s8kkq4aHUs3xWt6g==" fadeNear="3000" fadeFar="3500"/>
-		<POI MapID="1450" xpos="-41.937" ypos="157.431" zpos="151.549" type="utz.str.xjj.c.he" GUID="J8ewNsgJz0inwn4S3jEKuA==" fadeNear="3000" fadeFar="3500"/>
+		<POI MapID="1450" xpos="-78.353" ypos="157.493" zpos="136.421" type="utz.str.xjj.c.ar" 	GUID="AbRAG6y7f0q3xPgzjZYddQ=="/>
+		<POI MapID="1450" xpos="-44.588" ypos="157.411" zpos="108.224" type="utz.str.xjj.c.ci" GUID="OwWuO/s8kkq4aHUs3xWt6g=="/>
+		<POI MapID="1450" xpos="-41.937" ypos="157.431" zpos="151.549" type="utz.str.xjj.c.he" GUID="J8ewNsgJz0inwn4S3jEKuA=="/>
 	
 	<!--
 	**************************************************************************** 
@@ -96,18 +97,18 @@
 	****************************************************************************-->
 		
 		<!-- Start -->
-		<POI MapID="1451" xpos="-511.92" ypos="271.053" zpos="-342.67" type="utz.str.ko.shortbow" GUID="99X+MZXjuUSBN1FdfJ00zw==" miniMapVisibility="0" iconSize="1.3" fadeNear="700" fadeFar="1000"/>
-		<POI MapID="1451" xpos="-511.92" ypos="273.053" zpos="-342.67" type="utz.str.ko.cuts" GUID="l0ynLBDJn0q6/dssLjf/6w==" miniMapVisibility="0" iconSize="0.5" fadeNear="700" fadeFar="1000"/>
+		<POI MapID="1451" xpos="-516.295" ypos="266.057" zpos="-349.82" type="utz.str.ko.shortbow" GUID="99X+MZXjuUSBN1FdfJ00zw=="/>
+		<POI MapID="1451" xpos="-516.295" ypos="266.057" zpos="-349.82" type="utz.str.ko.cuts" GUID="l0ynLBDJn0q6/dssLjf/6w=="/>
 		<!-- Main -->
-		<POI MapID="1451" xpos="-579.7903" ypos="274.5745" zpos="-404.9231" type="utz.str.ko.c.ar" GUID="/0ODWxf6UUW+5J9PLYNznA==" iconSize="0.5" alpha="0.8"/>
-		<POI MapID="1451" xpos="-586-442" ypos="274.5745" zpos="-409.732" type="utz.str.ko.c.ci" GUID="WGctH2sz9EyNwM3zH22FfA==" iconSize="0.5" alpha="0.8"/>
-		<POI MapID="1451" xpos="-592.6197" ypos="274.5745" zpos="-407.1154" type="utz.str.ko.c.he" GUID="LlOjVLXePkOgs3A2hyJcfQ==" iconSize="0.5" alpha="0.8"/>
-		<POI MapID="1451" xpos="-594.0124" ypos="274.5745" zpos="-399.812" type="utz.str.ko.c.sq" GUID="euqYPblwBUuWsqytsgtqGw=="iconSize="0.5" alpha="0.8"/>
-		<POI MapID="1451" xpos="-587.5551" ypos="274.5745" zpos="-395.4004" type="utz.str.ko.c.st" GUID="bJiJ6WlgekCs6fZIow/XIg==" iconSize="0.5" alpha="0.8"/>
+		<POI MapID="1451" xpos="-579.7903" ypos="274.5745" zpos="-404.9231" type="utz.str.ko.c.ar" GUID="/0ODWxf6UUW+5J9PLYNznA=="/>
+		<POI MapID="1451" xpos="-586-442" ypos="274.5745" zpos="-409.732" type="utz.str.ko.c.ci" GUID="WGctH2sz9EyNwM3zH22FfA=="/>
+		<POI MapID="1451" xpos="-592.6197" ypos="274.5745" zpos="-407.1154" type="utz.str.ko.c.he" GUID="LlOjVLXePkOgs3A2hyJcfQ=="/>
+		<POI MapID="1451" xpos="-594.0124" ypos="274.5745" zpos="-399.812" type="utz.str.ko.c.sq" GUID="euqYPblwBUuWsqytsgtqGw=="/>
+		<POI MapID="1451" xpos="-587.5551" ypos="274.5745" zpos="-395.4004" type="utz.str.ko.c.st" GUID="bJiJ6WlgekCs6fZIow/XIg=="/>
 		<!-- Split -->
-		<POI MapID="1451" xpos="-532.4946" ypos="266.1935" zpos="-361.8831" type="utz.str.ko.c.sp" GUID="TVvhRXhLNkOrWnwnxqe+0Q=="iconSize="0.5" alpha="0.8"/>
-		<POI MapID="1451" xpos="-536.107" ypos="266.1935" zpos="-384.9667" type="utz.str.ko.c.tr" GUID="39ritprk3k68gKmhLdmvCw==" iconSize="0.5" alpha="0.8"/>
-		<POI MapID="1451" xpos="-556.5455" ypos="266.1935" zpos="-357.6116" type="utz.str.ko.c.x" GUID="t1NOMjyQ9U2F7soXfrf7BA==" iconSize="0.5" alpha="0.8"/>
+		<POI MapID="1451" xpos="-532.4946" ypos="266.1935" zpos="-361.8831" type="utz.str.ko.c.sp" GUID="TVvhRXhLNkOrWnwnxqe+0Q=="/>
+		<POI MapID="1451" xpos="-536.107" ypos="266.1935" zpos="-384.9667" type="utz.str.ko.c.tr" GUID="39ritprk3k68gKmhLdmvCw=="/>
+		<POI MapID="1451" xpos="-556.5455" ypos="266.1935" zpos="-357.6116" type="utz.str.ko.c.x" GUID="t1NOMjyQ9U2F7soXfrf7BA=="/>
 	
 	
 	<!--
@@ -126,7 +127,7 @@
 	*                                                                          *
 	****************************************************************************-->
 	
-		<POI MapID="1485" xpos="-42.7142" ypos="21.5158" zpos="151.33" type="utz.str.olc.moa" GUID="vvABCcQ3BECzKHDW2WKm/Q==" heightOffset="3" miniMapVisibility="0" iconSize="0.5" alpha="0.8" fadeNear="1500" fadeFar="1600"/>
+		<POI MapID="1485" xpos="-49.2592" ypos="21.5393" zpos="145.635" type="utz.str.olc.moa" GUID="vvABCcQ3BECzKHDW2WKm/Q=="/>
 		
 	<!--
 	**************************************************************************** 
@@ -135,7 +136,7 @@
 	*                                                                          *
 	****************************************************************************-->
 	
-		<POI MapID="1515" xpos="-28.9227" ypos="150.736" zpos="1.13548" type="utz.str.co.moa" GUID="oec354k0QUmAYfdKdVOtUg==" heightOffset="3" miniMapVisibility="0" alpha="0.8" fadeNear="1500" fadeFar="1600"/>
+		<POI MapID="1515" xpos="-28.9227" ypos="150.736" zpos="1.13548" type="utz.str.co.moa" GUID="oec354k0QUmAYfdKdVOtUg=="/>
 	
 	<!--
 	**************************************************************************** 
@@ -144,7 +145,7 @@
 	*                                                                          *
 	****************************************************************************-->
 	
-		<POI MapID="1520" xpos="-6.55714" ypos="207.677" zpos="-199.316" type="utz.str.co.moa" GUID="VINpSqvIMEWXKT30a43jlQ==" heightOffset="3" miniMapVisibility="0" alpha="0.8" fadeNear="1500" fadeFar="1600"/>
+		<POI MapID="1520" xpos="-6.55714" ypos="207.677" zpos="-199.316" type="utz.str.co.moa" GUID="VINpSqvIMEWXKT30a43jlQ=="/>
 	
 	</POIs>
 </OverlayData>

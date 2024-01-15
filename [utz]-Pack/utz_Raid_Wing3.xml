@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- 2023.12.29 -->
+<!-- 2024.01.15 -->
 <OverlayData>
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
 	 <MarkerCategory name="r" DisplayName="Raids">
@@ -9,44 +9,38 @@
 			</MarkerCategory>
 			<MarkerCategory name="kc" displayname="Keep Construct">
 				<MarkerCategory name="c" displayname="Commandermarker">
-					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
-					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
 				</MarkerCategory>
-				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png" iconSize="1.5" heightOffset="3" fadeNear="2000" fadeFar="2100" miniMapVisibility="0"/>	
 			</MarkerCategory>
 			<MarkerCategory name="Xera" displayname="Xera">
 				<MarkerCategory name="c" displayname="Commandermarker">
-					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
-					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
-					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
 				</MarkerCategory>
-				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png" fadeNear="2000" fadeFar="2100"/>	
 			</MarkerCategory>
 		</MarkerCategory>
 	 </MarkerCategory>
 	</MarkerCategory>
 	<POIs>
-	<!--
-	**************************************************************************** 
-	*                                                                          *
-	*                           Stronghold of the Faithful   		           *
-	*                                                                          *
-	****************************************************************************-->
-	
+		
 	<!-- KC -->
-		<POI MapID="1156" xpos="-107.871" ypos="141.272" zpos="286.52" type="utz.r.w3.kc.alert" GUID="uRYEvui7TE+cFdofFePNWQ==" fadeNear="4000" fadeFar="4100" miniMapVisibility="0"/>
-		<POI MapID="1156" xpos="-97.019" ypos="148.556" zpos="255.827" type="utz.r.w3.kc.c.ar" GUID="nugzrk0nS0K0aljtSTqbaQ==" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1156" xpos="-81.049" ypos="148.556" zpos="228.662" type="utz.r.w3.kc.c.ci" GUID="RzADtW9fS0y4Ql8PnUwW7g==" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1156" xpos="-114.034" ypos="148.556" zpos="229.05" type="utz.r.w3.kc.c.he" GUID="T0umJFAk3kyaz20kA5+ULA==" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1156" xpos="-107.871" ypos="141.272" zpos="286.52" type="utz.r.w3.kc.alert" GUID="uRYEvui7TE+cFdofFePNWQ=="/>
+		<POI MapID="1156" xpos="-97.019" ypos="148.556" zpos="255.827" type="utz.r.w3.kc.c.ar" GUID="nugzrk0nS0K0aljtSTqbaQ=="/>
+		<POI MapID="1156" xpos="-81.049" ypos="148.556" zpos="228.662" type="utz.r.w3.kc.c.ci" GUID="RzADtW9fS0y4Ql8PnUwW7g=="/>
+		<POI MapID="1156" xpos="-114.034" ypos="148.556" zpos="229.05" type="utz.r.w3.kc.c.he" GUID="T0umJFAk3kyaz20kA5+ULA=="/>
 		
 	<!-- Xera -->
-		<POI MapID="1156" xpos="-47.8977" ypos="512.745" zpos="-23.0523" type="utz.r.w3.xera.alert" GUID="SSoPnVkWAUqLLFdxBo4GtA==" fadeNear="2000" fadeFar="2100"/>
-		<POI MapID="1156" xpos="-55.524" ypos="512.354" zpos="-92.326" type="utz.r.w3.xera.c.ar" GUID="OxQ6coeHSEWgvOwds+J1DA==" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1156" xpos="-64.367" ypos="512.354" zpos="-58.505" type="utz.r.w3.xera.c.ci" GUID="uvq1SpDnAEGIVlABQo1KdA==" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1156" xpos="-101.757" ypos="512.354" zpos="-80.51" type="utz.r.w3.xera.c.he" GUID="2PYcAZNRKUW4qxtKJFz1JA==" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1156" xpos="-98.724" ypos="512.354" zpos="-68.167" type="utz.r.w3.xera.c.sq" GUID="3xWcHt0DmkyteaVMwetNfg==" heightOffset="3" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1156" xpos="-47.8977" ypos="512.745" zpos="-23.0523" type="utz.r.w3.xera.alert" GUID="SSoPnVkWAUqLLFdxBo4GtA=="/>
+		<POI MapID="1156" xpos="-55.524" ypos="512.354" zpos="-92.326" type="utz.r.w3.xera.c.ar" GUID="OxQ6coeHSEWgvOwds+J1DA=="/>
+		<POI MapID="1156" xpos="-64.367" ypos="512.354" zpos="-58.505" type="utz.r.w3.xera.c.ci" GUID="uvq1SpDnAEGIVlABQo1KdA=="/>
+		<POI MapID="1156" xpos="-101.757" ypos="512.354" zpos="-80.51" type="utz.r.w3.xera.c.he" GUID="2PYcAZNRKUW4qxtKJFz1JA=="/>
+		<POI MapID="1156" xpos="-98.724" ypos="512.354" zpos="-68.167" type="utz.r.w3.xera.c.sq" GUID="3xWcHt0DmkyteaVMwetNfg=="/>
 		
 	</POIs>
 </OverlayData>

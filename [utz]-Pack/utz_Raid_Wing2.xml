@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
-<!-- 2023.12.29 -->
+<!-- 2024.01.15 -->
 <OverlayData>
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
 	 <MarkerCategory name="r" DisplayName="Raids">
 		<MarkerCategory name="w2" DisplayName="Wing 2">
 			<MarkerCategory name="sloth" displayname="Slothasor">
 				<MarkerCategory name="c" displayname="Commandermarker">
-					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
-					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
-					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" fadeNear="4000" fadeFar="4100"/>
 				</MarkerCategory>
-				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
-				<MarkerCategory name="one" displayName="One" iconFile="Data/Marker/one.png"/>
-				<MarkerCategory name="two" displayName="Two" iconFile="Data/Marker/two.png"/>
-				<MarkerCategory name="three" displayName="Three" iconFile="Data/Marker/three.png"/>
-				<MarkerCategory name="four" displayName="Four" iconFile="Data/Marker/four.png"/>
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png" iconSize="2" fadeNear="2000" fadeFar="2100" miniMapVisibility="0"/>	
+				<MarkerCategory name="one" displayName="One" iconFile="Data/Marker/one.png" iconSize="0.8" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="two" displayName="Two" iconFile="Data/Marker/two.png" iconSize="0.8" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="three" displayName="Three" iconFile="Data/Marker/three.png" iconSize="0.8" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="four" displayName="Four" iconFile="Data/Marker/four.png" iconSize="0.8" fadeNear="4000" fadeFar="4100"/>
 			</MarkerCategory>
 			<MarkerCategory name="trio" displayname="Bandit Trio">
 				<MarkerCategory name="c" displayname="Commandermarker">
@@ -31,12 +31,12 @@
 			</MarkerCategory>
 			<MarkerCategory name="mat" displayname="Matthias">
 				<MarkerCategory name="c" displayname="Commandermarker">
-					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
-					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
-					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" heightOffset="4" alpha="1.5" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" heightOffset="4" alpha="1.5" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" heightOffset="4" alpha="1.5" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" heightOffset="4" alpha="1.5" fadeNear="4000" fadeFar="4100"/>
 				</MarkerCategory>
-				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png" iconSize="2" heightOffset="3" fadeNear="1000" fadeFar="1100" miniMapVisibility="0"/>	
 			</MarkerCategory>
 		</MarkerCategory>
 	 </MarkerCategory>
@@ -44,23 +44,23 @@
 	  
 	<POIs>
 	<!-- Sloth -->
-		<POI MapID="1149" xpos="233.289" ypos="8.85329" zpos="212.205" type="utz.r.w2.sloth.alert" GUID="eQw3yTOiSkeebpGCnpENkA=="fadeNear="2000" fadeFar="2100" miniMapVisibility="0"/>
-		<POI MapID="1149" xpos="204.034" ypos="1.46009" zpos="2.29297" type="utz.r.w2.sloth.c.ar" GUID="+1yhAOPVFEqaslPI+L6Rcg==" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1149" xpos="189.252" ypos="0.944124" zpos="-19.7588" type="utz.r.w2.sloth.c.ci" GUID="vteqRfsU6k+2534WThpGLQ==" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1149" xpos="200.585" ypos="0.158136" zpos="-22.2793" type="utz.r.w2.sloth.c.he" GUID="DOuc3ZmCaUiYCdaXy4816w==" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1149" xpos="211.157" ypos="0.472223" zpos="-13.3433" type="utz.r.w2.sloth.c.sq" GUID="FAbVJi2nUkCpElXzk2L6Gw==" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1149" xpos="208.928" ypos="4.933" zpos="25.562" type="utz.r.w2.sloth.one" GUID="orHk62LZ8EyzraKa0gGXKg==" iconSize="0.5" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1149" xpos="174.839" ypos="2.414" zpos="-9.068" type="utz.r.w2.sloth.two" GUID="FYA1LPmOl0SeX4qUTWMoyw==" iconSize="0.5" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1149" xpos="192.947"  ypos="0.846" zpos="-35.956" type="utz.r.w2.sloth.three" GUID="y/MQHT7wCkagUkPZlpFa6A==" iconSize="0.5" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1149" xpos="224.945" ypos="-0.177" zpos="-13.404" type="utz.r.w2.sloth.four" GUID="K4lINKdqcEeKpuQMv9sU1g==" iconSize="0.5" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="233.289" ypos="8.85329" zpos="212.205" type="utz.r.w2.sloth.alert" GUID="eQw3yTOiSkeebpGCnpENkA=="/>
+		<POI MapID="1149" xpos="204.034" ypos="1.46009" zpos="2.29297" type="utz.r.w2.sloth.c.ar" GUID="+1yhAOPVFEqaslPI+L6Rcg=="/>
+		<POI MapID="1149" xpos="189.252" ypos="0.944124" zpos="-19.7588" type="utz.r.w2.sloth.c.ci" GUID="vteqRfsU6k+2534WThpGLQ=="/>
+		<POI MapID="1149" xpos="200.585" ypos="0.158136" zpos="-22.2793" type="utz.r.w2.sloth.c.he" GUID="DOuc3ZmCaUiYCdaXy4816w=="/>
+		<POI MapID="1149" xpos="211.157" ypos="0.472223" zpos="-13.3433" type="utz.r.w2.sloth.c.sq" GUID="FAbVJi2nUkCpElXzk2L6Gw=="/>
+		<POI MapID="1149" xpos="208.928" ypos="4.933" zpos="25.562" type="utz.r.w2.sloth.one" GUID="orHk62LZ8EyzraKa0gGXKg=="/>
+		<POI MapID="1149" xpos="174.839" ypos="2.414" zpos="-9.068" type="utz.r.w2.sloth.two" GUID="FYA1LPmOl0SeX4qUTWMoyw=="/>
+		<POI MapID="1149" xpos="192.947"  ypos="0.846" zpos="-35.956" type="utz.r.w2.sloth.three" GUID="y/MQHT7wCkagUkPZlpFa6A=="/>
+		<POI MapID="1149" xpos="224.945" ypos="-0.177" zpos="-13.404" type="utz.r.w2.sloth.four" GUID="K4lINKdqcEeKpuQMv9sU1g=="/>
 	
 	<!-- Trio -->
 		
 	<!-- Matthias -->
-		<POI MapID="1149" xpos="233.289" ypos="8.85329" zpos="212.205" type="utz.r.w2.mat.alert" GUID="" fadeNear="2000" fadeFar="2100" miniMapVisibility="0"/>
-		<POI MapID="1149" xpos="-171.0662" ypos="131.7141" zpos="129.6464" type="utz.r.w2.mat.c.ar" GUID="H2zG9HaLbEqFa03b86BaYg==" heightOffset="4" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1149" xpos="-171.065" ypos="131.7728" zpos="170.2808" type="utz.r.w2.mat.c.ci" GUID="7uQvSjGSk0+F9qkUXUtL6A==" heightOffset="4" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1149" xpos="-129.9426" ypos="131.8336" zpos="170.2092" type="utz.r.w2.mat.c.he" GUID="23g0vuW330C9OqAnFuYTxA==" heightOffset="4" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1149" xpos="-130.633" ypos="131.5248" zpos="129.8348" type="utz.r.w2.mat.c.sq" GUID="KDao9URL+k2WcLw1ac3dTg==" heightOffset="4" alpha="0.8" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1149" xpos="-157.433" ypos="131.271" zpos="104.998" type="utz.r.w2.mat.alert" GUID="pbEe7XdYd0uLa7ClX251jg=="/>
+		<POI MapID="1149" xpos="-171.0662" ypos="131.7141" zpos="129.6464" type="utz.r.w2.mat.c.ar" GUID="H2zG9HaLbEqFa03b86BaYg=="/>
+		<POI MapID="1149" xpos="-171.065" ypos="131.7728" zpos="170.2808" type="utz.r.w2.mat.c.ci" GUID="7uQvSjGSk0+F9qkUXUtL6A=="/>
+		<POI MapID="1149" xpos="-129.9426" ypos="131.8336" zpos="170.2092" type="utz.r.w2.mat.c.he" GUID="23g0vuW330C9OqAnFuYTxA=="/>
+		<POI MapID="1149" xpos="-130.633" ypos="131.5248" zpos="129.8348" type="utz.r.w2.mat.c.sq" GUID="KDao9URL+k2WcLw1ac3dTg=="/>
 	</POIs>
 </OverlayData>

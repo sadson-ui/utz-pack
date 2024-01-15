@@ -1,15 +1,38 @@
 <?xml version="1.0"?>
-<!-- 2023.12.30 -->
+<!-- 2024.01.15 -->
 <OverlayData>
+<MarkerCategory name="utz" DisplayName="[utz]-Pack">
+	<MarkerCategory name="blkf" DisplayName="Black Lion Key Farm">
+		<MarkerCategory name="blkf_start" displayName="Start" iconFile="Data/Marker/blkf/blkf_start.png" iconSize="1.5"  miniMapVisibility="0" heightOffset="5"/>
+		<MarkerCategory name="blkf_equip" displayName="Equip" iconFile="Data/Marker/blkf/blkf_equip.png" iconSize="1.5"  miniMapVisibility="0" heightOffset="3"/>
+		<MarkerCategory name="blkf_salma" displayName="WP Salma" iconFile="Data/Marker/blkf/blkf_salma.png" iconSize="2" fadeNear="2000" fadeFar="2100" miniMapVisibility="0" heightOffset="3"/>
+		<MarkerCategory name="blkf_fields" displayName="WP Fields" iconFile="Data/Marker/blkf/blkf_fields.png" iconSize="2" fadeNear="2000" fadeFar="2100" miniMapVisibility="0" heightOffset="3"/>
+		<MarkerCategory name="blkf_shaemoor" displayName="WP Shaemoor" iconFile="Data/Marker/blkf/blkf_shaemoor.png" iconSize="2" fadeNear="2000" fadeFar="2100" miniMapVisibility="0" heightOffset="3"/>
+		<MarkerCategory name="blkf_palace" displayName="WP Palace" iconFile="Data/Marker/blkf/blkf_palace.png" iconSize="2" fadeNear="2000" fadeFar="2100" miniMapVisibility="0" heightOffset="3"/>
+	
+	
+	
+	
+	</MarkerCategory>
+</MarkerCategory>
+
 	<POIs>
 	<!--
 	**************************************************************************** 
 	*                                                                          *
 	*                       	   BLKF				                           *
 	*                                                                          *
-	****************************************************************************
-	<POI MapID="138" xpos="-378.318" ypos="72.5919" zpos="584.822" type="utz.stuff.blkf" GUID="ymhpesmwb0OC3t3pZJz8FA==" iconFile="Data/Marker/blkf/start_blkf.png" iconSize="1.5"  miniMapVisibility="0" heightOffset="3" />
-	<POI MapID="138" xpos="-390.63" ypos="72.4087" zpos="591.767" type="utz.stuff.blkf" GUID="TDmTjymN20Gp3yoh42potw==" iconFile="Data/Marker/blkf/blkf_equip.png" iconSize="1.5"  miniMapVisibility="0" heightOffset="3" />
-	-->
+	****************************************************************************-->
+	<POI MapID="138" xpos="-378.318" ypos="72.5919" zpos="584.822" type="utz.blkf.blkf_start" GUID="ymhpesmwb0OC3t3pZJz8FA==" />
+	<POI MapID="138" xpos="-372.671" ypos="73.7893" zpos="586.927" type="utz.blkf.blkf_equip" GUID="TDmTjymN20Gp3yoh42potw==" />
+	<POI MapID="15" xpos="-384.52" ypos="72.7689" zpos="592.935" type="utz.blkf.blkf_salma" GUID="j9FQgPY9G0q3J+A8pAOk7w==" copy="[&BC4DAAA=]" triggerrange="5" autotrigger="1" info="Do first heart then teleport to salma."/>
+	<POI MapID="226" xpos="275.547" ypos="71.1377" zpos="247.532" type="utz.blkf.blkf_fields" GUID="3RcqmJp1CUmD6ONnBHOmcg==" copy="[&BPAAAAA=]" triggerrange="1" autotrigger="1"/>
+	<POI MapID="113" xpos="-844.527" ypos="29.1183" zpos="31.4618" type="utz.blkf.blkf_fields" GUID="h/5L0BJjnkezSp13uecC7Q==" copy="[&BPAAAAA=]" triggerrange="1" autotrigger="1"/>
+	<POI MapID="15" xpos="-679.376" ypos="23.5228" zpos="400.159" type="utz.blkf.blkf_salma" GUID="a/qqDP7t7ESP4lIfmQq0nA==" copy="[&BC4DAAA=]" triggerrange="2" autotrigger="1"/>
+	<POI MapID="327" xpos="268.849" ypos="69.0767" zpos="245.475" type="utz.blkf.blkf_shaemoor" GUID="c99LFLE6uky+8qkYke1New==" copy="[&BO8AAAA=]" triggerrange="2" autotrigger="1"/>
+	<POI MapID="61" xpos="16.1751" ypos="1.02833" zpos="698.659" type="utz.blkf.blkf_palace" GUID="atXi+MMDCE6InCrPsCmKzA==" copy="[&BCkDAAA=]" triggerrange="2" autotrigger="1"/>
+	<POI MapID="97" xpos="115.678" ypos="134.889" zpos="10.2904" type="utz.blkf.blkf_salma" GUID="v/WV8MWXsEujOk7nLtd4Kw==" copy="[&BC4DAAA=]" triggerrange="5" autotrigger="1" />
+	<POI MapID="37" xpos="261.801" ypos="69.259" zpos="295.464" type="utz.blkf.blkf_palace" GUID="J7i3JWMzd0iOD5d5kuYrog==" copy="[&BCkDAAA=]" triggerrange="5" autotrigger="1"/>
+	
 	</POIs>
 </OverlayData>

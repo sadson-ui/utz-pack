@@ -1,108 +1,110 @@
 <?xml version="1.0"?>
-<!-- 2023.12.29 -->
+<!-- 2024.01.15 -->
 <OverlayData>
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
 	 <MarkerCategory name="r" DisplayName="Raids">
 		<MarkerCategory name="w5" DisplayName="Wing 5">
 			<MarkerCategory name="desmina" displayname="Desmina">
 				<MarkerCategory name="c" displayname="Commandermarker">
-					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
-					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
-					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" fadeNear="5000" fadeFar="5100"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" fadeNear="5000" fadeFar="5100"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" fadeNear="5000" fadeFar="5100"/>
 				</MarkerCategory>
-				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png"/>	
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png" iconSize="2" mapDisplaySize="0"  fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>	
 			</MarkerCategory>
 			<MarkerCategory name="river" displayname="River">
-				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
-				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>				
-				<MarkerCategory name="p_i" displayName="Portal_In" iconFile="Data/Marker/portal_in.png"/>
-				<MarkerCategory name="p_o" displayName="Portal_Out" iconFile="Data/Marker/portal_out.png"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" fadeNear="5000" fadeFar="5100"/>				
+				<MarkerCategory name="p_i" displayName="Portal_In" iconFile="Data/Marker/portal_in.png" iconSize="1.2" alpha="0.8" fadeNear="5000" fadeFar="5100"/>
+				<MarkerCategory name="p_o" displayName="Portal_Out" iconFile="Data/Marker/portal_out.png" iconSize="1.2" alpha="0.8" fadeNear="5000" fadeFar="5100"/>
 			</MarkerCategory>
 			<MarkerCategory name="eyes" displayname="Eyes">
-				<MarkerCategory name="1r" displayName="1red" iconFile="Data/Marker/1r.png"/>
-				<MarkerCategory name="2r" displayName="2red" iconFile="Data/Marker/2r.png"/>
+				<MarkerCategory name="1r" displayName="1red" iconFile="Data/Marker/1r.png"  iconSize="1" fadeNear="5000" fadeFar="3100"/>
+				<MarkerCategory name="2r" displayName="2red" iconFile="Data/Marker/2r.png" iconSize="1" fadeNear="5000" fadeFar="3100"/>
 			</MarkerCategory>
 			<MarkerCategory name="soul" displayname="Souleater">
-				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
-				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
-				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+				<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100"/>
+				<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" fadeNear="4000" fadeFar="4100"/>
+				<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" fadeNear="3000" fadeFar="3100"/>
 			</MarkerCategory>
 			<MarkerCategory name="king" displayname="Broken King">
 				<MarkerCategory name="c" displayname="Commandermarker">
-					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
-					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
-					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" fadeNear="4000" fadeFar="4100"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" fadeNear="4000" fadeFar="4100"/>
 				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="dhuum" displayname="Dhuum">
 				<MarkerCategory name="c" displayname="Commandermarker">
-					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png"/>
-					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png"/>
-					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png"/>
-					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png"/>
-					<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png"/>
-					<MarkerCategory name="sp" displayName="Spiral" iconFile="Data/Marker/spiral.png"/>
-					<MarkerCategory name="tr" displayName="Triangle" iconFile="Data/Marker/triangle.png"/>
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" fadeNear="5000" fadeFar="5100" heightOffset="-0.5"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" fadeNear="5000" fadeFar="5100" heightOffset="-0.5"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" fadeNear="4500" fadeFar="4600" heightOffset="-0.5"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" fadeNear="3500" fadeFar="3600" heightOffset="-0.5"/>
+					<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png" fadeNear="3000" fadeFar="3100" heightOffset="-0.5"/>
+					<MarkerCategory name="sp" displayName="Spiral" iconFile="Data/Marker/spiral.png" fadeNear="3500" fadeFar="3600" heightOffset="-0.5"/>
+					<MarkerCategory name="tr" displayName="Triangle" iconFile="Data/Marker/triangle.png" fadeNear="4500" fadeFar="4600" heightOffset="-0.5"/>
 					<MarkerCategory name="x" displayName="X" iconFile="Data/Marker/cross.png"/>
 				</MarkerCategory>
+				<MarkerCategory name="alert" displayName="Alert" iconFile="Data/Marker/alert.png" iconSize="2" mapDisplaySize="0"  fadeNear="1000" fadeFar="1100" miniMapVisibility="0"/>
 			</MarkerCategory>
 		</MarkerCategory>
 	 </MarkerCategory>
 	</MarkerCategory>
 	<POIs>
 	<!-- Desmina -->
-		<POI MapID="1264" xpos="-334.792" ypos="44.7534" zpos="16.5252" type="utz.r.w5.desmina.alert" GUID="+pRlqr1/2E60+Z3J/pIwsg==" iconSize="2" mapDisplaySize="0"  fadeNear="5000" fadeFar="5100" miniMapVisibility="0"/>
-		<POI MapID="1264" xpos="-266.506" ypos="20.7626" zpos="8.67837" type="utz.r.w5.desmina.c.ar" GUID="hjBfi6TeBkqAiwqv69bwUQ==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="-282.779" ypos="20.7626" zpos="18.4602" type="utz.r.w5.desmina.c.ci" GUID="IN17Eh90XEWpPRtBgkA/2g==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="-272.953" ypos="20.7626" zpos="34.7396" type="utz.r.w5.desmina.c.he" GUID="5mi/xyelOEava0+xmRnpeQ==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="-256.56" ypos="20.7626" zpos="24.8607" type="utz.r.w5.desmina.c.sq" GUID="uGVPE9HvkkaK2jNkwMX45w==" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-334.792" ypos="44.7534" zpos="16.5252" type="utz.r.w5.desmina.alert" GUID="+pRlqr1/2E60+Z3J/pIwsg=="/>
+		<POI MapID="1264" xpos="-266.506" ypos="20.7626" zpos="8.67837" type="utz.r.w5.desmina.c.ar" GUID="hjBfi6TeBkqAiwqv69bwUQ=="/>
+		<POI MapID="1264" xpos="-282.779" ypos="20.7626" zpos="18.4602" type="utz.r.w5.desmina.c.ci" GUID="IN17Eh90XEWpPRtBgkA/2g=="/>
+		<POI MapID="1264" xpos="-272.953" ypos="20.7626" zpos="34.7396" type="utz.r.w5.desmina.c.he" GUID="5mi/xyelOEava0+xmRnpeQ=="/>
+		<POI MapID="1264" xpos="-256.56" ypos="20.7626" zpos="24.8607" type="utz.r.w5.desmina.c.sq" GUID="uGVPE9HvkkaK2jNkwMX45w=="/>
 	
 	<!-- River -->
-		<POI MapID="1264" xpos="-164.359" ypos="32.8773" zpos="12.6926" type="utz.r.w5.river.ci" GUID="EUN6vP0Tmk2ycJa3+H+qQQ==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="-89.4168" ypos="50.6979" zpos="22.1451" type="utz.r.w5.river.ci" GUID="uhD5kOrFpk6UbEKjnoxCtg==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="-84.3609" ypos="51.9822" zpos="40.4911" type="utz.r.w5.river.ci" GUID="+eLo8QdXv0aEJAUVdM22Mg==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="-57.092" ypos="53.6288" zpos="18.6688" type="utz.r.w5.river.ci" GUID="9pVJLg+1y0+o8rcxJ0Xmhw==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="4.96518" ypos="41.0442" zpos="-108.898" type="utz.r.w5.river.ci" GUID="Ow34jpHhhkmbV5v/osbAww==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="-144.611" ypos="40.1848" zpos="25.7487" type="utz.r.w5.river.sq" GUID="D6t9UxY2SU+nj78KCn1l2A==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="27.1903" ypos="52.9444" zpos="-113.018" type="utz.r.w5.river.ci" GUID="JsuBZ/8aQ0uf/Jhq7wCkLQ==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="69.9071" ypos="76.6462" zpos="-101.202" type="utz.r.w5.river.ci" GUID="aRATMzwAR0GbLAJSv6qwpw==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="61.377" ypos="75.5409" zpos="-84.9426" type="utz.r.w5.river.ci" GUID="rcWwAkCH70OHHRpRtGBUjw==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="82.4109" ypos="91.1682" zpos="-54.3983" type="utz.r.w5.river.ci" GUID="7cyDstoGi0aR/KKcAa7RNg==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="96.2511" ypos="97.4523" zpos="-48.8083" type="utz.r.w5.river.ci" GUID="GzJMjgWbQEq1hPOBwLJP3Q==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="-64.4938" ypos="53.6152" zpos="25.0014" type="utz.r.w5.river.sq" GUID="Jw2MpY62TUeF6GkuixXkrA==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="23.0607" ypos="48.7172" zpos="-102.044" type="utz.r.w5.river.sq" GUID="xxDpK1zRRUGDPbVY8G6eyQ==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="90.136" ypos="88.8973" zpos="-70.0747" type="utz.r.w5.river.sq" GUID="Y3TvJ+7NEk6XecCwGaM/jQ==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="103.054" ypos="119.271" zpos="-2.90448" type="utz.r.w5.river.sq" GUID="DzXyh2XxgE6sKGvCWEDvVA==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="-56.6219" ypos="53.5535" zpos="12.8925" type="utz.r.w5.river.p_i" GUID="73GLMudDW0Wv8kxK3gTieg==" iconSize="0.5" alpha="0.8" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="8.70314" ypos="40.0413" zpos="-94.6941" type="utz.r.w5.river.p_o" GUID="EEtgre2IP0+dnEgcXLYzCQ==" iconSize="0.5" alpha="0.5" fadeNear="5000" fadeFar="5100"/>
+		<POI MapID="1264" xpos="-164.359" ypos="32.8773" zpos="12.6926" type="utz.r.w5.river.ci" GUID="EUN6vP0Tmk2ycJa3+H+qQQ=="/>
+		<POI MapID="1264" xpos="-89.4168" ypos="50.6979" zpos="22.1451" type="utz.r.w5.river.ci" GUID="uhD5kOrFpk6UbEKjnoxCtg=="/>
+		<POI MapID="1264" xpos="-84.3609" ypos="51.9822" zpos="40.4911" type="utz.r.w5.river.ci" GUID="+eLo8QdXv0aEJAUVdM22Mg=="/>
+		<POI MapID="1264" xpos="-57.092" ypos="53.6288" zpos="18.6688" type="utz.r.w5.river.ci" GUID="9pVJLg+1y0+o8rcxJ0Xmhw=="/>
+		<POI MapID="1264" xpos="4.96518" ypos="41.0442" zpos="-108.898" type="utz.r.w5.river.ci" GUID="Ow34jpHhhkmbV5v/osbAww=="/>
+		<POI MapID="1264" xpos="-144.611" ypos="40.1848" zpos="25.7487" type="utz.r.w5.river.sq" GUID="D6t9UxY2SU+nj78KCn1l2A=="/>
+		<POI MapID="1264" xpos="27.1903" ypos="52.9444" zpos="-113.018" type="utz.r.w5.river.ci" GUID="JsuBZ/8aQ0uf/Jhq7wCkLQ=="/>
+		<POI MapID="1264" xpos="69.9071" ypos="76.6462" zpos="-101.202" type="utz.r.w5.river.ci" GUID="aRATMzwAR0GbLAJSv6qwpw=="/>
+		<POI MapID="1264" xpos="61.377" ypos="75.5409" zpos="-84.9426" type="utz.r.w5.river.ci" GUID="rcWwAkCH70OHHRpRtGBUjw=="/>
+		<POI MapID="1264" xpos="82.4109" ypos="91.1682" zpos="-54.3983" type="utz.r.w5.river.ci" GUID="7cyDstoGi0aR/KKcAa7RNg=="/>
+		<POI MapID="1264" xpos="96.2511" ypos="97.4523" zpos="-48.8083" type="utz.r.w5.river.ci" GUID="GzJMjgWbQEq1hPOBwLJP3Q=="/>
+		<POI MapID="1264" xpos="-64.4938" ypos="53.6152" zpos="25.0014" type="utz.r.w5.river.sq" GUID="Jw2MpY62TUeF6GkuixXkrA=="/>
+		<POI MapID="1264" xpos="23.0607" ypos="48.7172" zpos="-102.044" type="utz.r.w5.river.sq" GUID="xxDpK1zRRUGDPbVY8G6eyQ=="/>
+		<POI MapID="1264" xpos="90.136" ypos="88.8973" zpos="-70.0747" type="utz.r.w5.river.sq" GUID="Y3TvJ+7NEk6XecCwGaM/jQ=="/>
+		<POI MapID="1264" xpos="103.054" ypos="119.271" zpos="-2.90448" type="utz.r.w5.river.sq" GUID="DzXyh2XxgE6sKGvCWEDvVA=="/>
+		<POI MapID="1264" xpos="-56.6219" ypos="53.5535" zpos="12.8925" type="utz.r.w5.river.p_i" GUID="73GLMudDW0Wv8kxK3gTieg=="/>
+		<POI MapID="1264" xpos="8.70314" ypos="40.0413" zpos="-94.6941" type="utz.r.w5.river.p_o" GUID="EEtgre2IP0+dnEgcXLYzCQ=="/>
 	
 	<!-- King -->
-		<POI MapID="1264" xpos="115.179" ypos="111.408" zpos="219.407" type="utz.r.w5.king.c.ar" GUID="8/q9tIhr0U+GeEkg0ITenA==" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1264" xpos="131.988" ypos="111.515" zpos="206.891" type="utz.r.w5.king.c.ci" GUID="XNqPOR8dbkyXxn2DqR0mqw==" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1264" xpos="119.173" ypos="112.171" zpos="190.4" type="utz.r.w5.king.c.he" GUID="RYcKkqTBbUuqaterpwCMSg==" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1264" xpos="103.029" ypos="110.779" zpos="204.24" type="utz.r.w5.king.c.sq" GUID="733z0W5IZUaShtE4mgXpiA==" fadeNear="4000" fadeFar="4100"/>
+		<POI MapID="1264" xpos="115.179" ypos="111.408" zpos="219.407" type="utz.r.w5.king.c.ar" GUID="8/q9tIhr0U+GeEkg0ITenA=="/>
+		<POI MapID="1264" xpos="131.988" ypos="111.515" zpos="206.891" type="utz.r.w5.king.c.ci" GUID="XNqPOR8dbkyXxn2DqR0mqw=="/>
+		<POI MapID="1264" xpos="119.173" ypos="112.171" zpos="190.4" type="utz.r.w5.king.c.he" GUID="RYcKkqTBbUuqaterpwCMSg=="/>
+		<POI MapID="1264" xpos="103.029" ypos="110.779" zpos="204.24" type="utz.r.w5.king.c.sq" GUID="733z0W5IZUaShtE4mgXpiA=="/>
 	
 	<!-- Souleater -->
-		<POI MapID="1264" xpos="99.4171" ypos="99.7539" zpos="-205.722" type="utz.r.w5.soul.ar" GUID="v+HU6LntekCFl1rrej5oOQ==" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1264" xpos="63.4425" ypos="99.5963" zpos="-218.364" type="utz.r.w5.soul.ci" GUID="HAN0OrmbvUWcJk1J3eiugw==" fadeNear="5000" fadeFar="5100"/>
-		<POI MapID="1264" xpos="52.4941" ypos="99.7004" zpos="-186.985" type="utz.r.w5.soul.he" GUID="XoiP7CU+gEu07CmHlOhG6Q==" fadeNear="4000" fadeFar="4100"/>
-		<POI MapID="1264" xpos="88.4335" ypos="99.6712" zpos="-174.704" type="utz.r.w5.soul.sq" GUID="yK6Scl7k4UmRhjhAZCkSDA==" fadeNear="3000" fadeFar="3100"/>
+		<POI MapID="1264" xpos="99.4171" ypos="99.7539" zpos="-205.722" type="utz.r.w5.soul.ar" GUID="v+HU6LntekCFl1rrej5oOQ=="/>
+		<POI MapID="1264" xpos="63.4425" ypos="99.5963" zpos="-218.364" type="utz.r.w5.soul.ci" GUID="HAN0OrmbvUWcJk1J3eiugw=="/>
+		<POI MapID="1264" xpos="52.4941" ypos="99.7004" zpos="-186.985" type="utz.r.w5.soul.he" GUID="XoiP7CU+gEu07CmHlOhG6Q=="/>
+		<POI MapID="1264" xpos="88.4335" ypos="99.6712" zpos="-174.704" type="utz.r.w5.soul.sq" GUID="yK6Scl7k4UmRhjhAZCkSDA=="/>
 	
-	<!-- Eyes -->
-		<POI MapID="1264" xpos="395.489" ypos="98.851" zpos="2.83873" type="utz.r.w5.eyes.1r" GUID="zIss06E3LkaLEOYXxkWAeQ==" iconSize="0.5" fadeNear="5000" fadeFar="3100"/>
-		<POI MapID="1264" xpos="389.944" ypos="98.851" zpos="3.7596" type="utz.r.w5.eyes.2r" GUID="BhKLor+elkS6eoAhhBYs0A==" iconSize="0.5" fadeNear="5000"/>
+	<!-- Eyes 
+		<POI MapID="1264" xpos="395.489" ypos="98.851" zpos="2.83873" type="utz.r.w5.eyes.1r" GUID="zIss06E3LkaLEOYXxkWAeQ=="/>
+		<POI MapID="1264" xpos="389.944" ypos="98.851" zpos="3.7596" type="utz.r.w5.eyes.2r" GUID="BhKLor+elkS6eoAhhBYs0A==" /> -->
 	
 	<!-- Dhuum -->
-		<POI MapID="1264" xpos="429.051" ypos="158.623" zpos="30.7413" type="utz.r.w5.dhuum.c.ar" GUID="+NVxEzOMik6N+SeDeue4Zw==" fadeNear="5000" fadeFar="5100" heightOffset="-0.5"/>
-		<POI MapID="1264" xpos="427.904" ypos="158.665" zpos="1.97305" type="utz.r.w5.dhuum.c.ci" GUID="Ds1W1dwIiU+mpKNDSeWn3g==" fadeNear="5000" fadeFar="5100" heightOffset="-0.5"/>
-		<POI MapID="1264" xpos="404.808" ypos="158.64" zpos="-14.862" type="utz.r.w5.dhuum.c.he" GUID="4WtBMqzD3EyiDx31XT6i2w==" fadeNear="4500" fadeFar="4600" heightOffset="-0.5"/>
-		<POI MapID="1264" xpos="377.819" ypos="158.657" zpos="-6.60314" type="utz.r.w5.dhuum.c.sq" GUID="y/BRpS+U50SiX8FY8E51sw==" fadeNear="3500" fadeFar="3600" heightOffset="-0.5"/>
-		<POI MapID="1264" xpos="365.887" ypos="158.668" zpos="19.4137" type="utz.r.w5.dhuum.c.st" GUID="0hLGImDyUkOeolGOG0XjRA==" fadeNear="3000" fadeFar="3100" heightOffset="-0.5"/>
-		<POI MapID="1264" xpos="379.1" ypos="158.635" zpos="44.71" type="utz.r.w5.dhuum.c.sp" GUID="TWVZ0voY9U2vNN7D1pGtkA==" fadeNear="3500" fadeFar="3600" heightOffset="-0.5"/>
-		<POI MapID="1264" xpos="407.779" ypos="158.56" zpos="50.0276" type="utz.r.w5.dhuum.c.tr" GUID="dwH+hhAXqE2QkW3yA8qVhA==" fadeNear="4500" fadeFar="4600" heightOffset="-0.5"/>		
+		<POI MapID="1264" xpos="429.051" ypos="158.623" zpos="30.7413" type="utz.r.w5.dhuum.c.ar" GUID="+NVxEzOMik6N+SeDeue4Zw=="/>
+		<POI MapID="1264" xpos="427.904" ypos="158.665" zpos="1.97305" type="utz.r.w5.dhuum.c.ci" GUID="Ds1W1dwIiU+mpKNDSeWn3g=="/>
+		<POI MapID="1264" xpos="404.808" ypos="158.64" zpos="-14.862" type="utz.r.w5.dhuum.c.he" GUID="4WtBMqzD3EyiDx31XT6i2w=="/>
+		<POI MapID="1264" xpos="377.819" ypos="158.657" zpos="-6.60314" type="utz.r.w5.dhuum.c.sq" GUID="y/BRpS+U50SiX8FY8E51sw=="/>
+		<POI MapID="1264" xpos="365.887" ypos="158.668" zpos="19.4137" type="utz.r.w5.dhuum.c.st" GUID="0hLGImDyUkOeolGOG0XjRA=="/>
+		<POI MapID="1264" xpos="379.1" ypos="158.635" zpos="44.71" type="utz.r.w5.dhuum.c.sp" GUID="TWVZ0voY9U2vNN7D1pGtkA=="/>
+		<POI MapID="1264" xpos="407.779" ypos="158.56" zpos="50.0276" type="utz.r.w5.dhuum.c.tr" GUID="dwH+hhAXqE2QkW3yA8qVhA=="/>
+		<POI MapID="1264" xpos="319.207" ypos="154.967" zpos="22.0733" type="utz.r.w5.dhuum.alert" GUID="eXgxSfaNDkGIZ8NylTTvpw=="/>
 		
 	</POIs>
 </OverlayData>

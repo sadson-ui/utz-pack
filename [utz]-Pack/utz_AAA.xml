@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<!-- 2024.01.04 -->
+<!-- 2024.01.15 -->
 
 <OverlayData>
 
-	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
-	 <MarkerCategory name="separatormenu11" IsSeparator="1" DisplayName="v1.0.4 | 04.01.2024 "/>
+<MarkerCategory name="utz" DisplayName="[utz]-Pack">
+	 <MarkerCategory name="separatormenu11" IsSeparator="1" DisplayName="v1.0.5 | 15.01.2024 "/>
 	<!-- Missing --> <!-- one xml -->
 	<MarkerCategory name="info" DisplayName="Missing stuff ">
 	 <MarkerCategory name="separatormenu01" IsSeparator="1" DisplayName="-- MISSING --"/>
@@ -19,6 +19,11 @@
 	<MarkerCategory name="str" DisplayName="Strikes">
 		<MarkerCategory name="separatormenu03" IsSeparator="1" DisplayName="-- STRIKES --"/>
 	</MarkerCategory>
+		
+	<!-- BLKF --> <!-- one xml -->
+	<MarkerCategory name="blkf" DisplayName="Black Lion Key Farm">
+		<MarkerCategory name="separatormenu04" IsSeparator="1" DisplayName="-- BLKF --"/>
 	</MarkerCategory>
+</MarkerCategory>	
 	
 </OverlayData>
