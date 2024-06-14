@@ -4,9 +4,8 @@
 
 Including marker for raids and eod/soto strikes
 
-v1.0.5:
+v1.0.6:
 
 - adjusted some marker settings for certain specializations
-- added some new markers
-- adjusted architecture of certain documents so that they are all structured the same
-- added blkf markers including waypoint c&p for lazy players
+- added some new markers (ht)
+- some renaming stuff
