@@ -59,13 +59,13 @@
 		<MarkerCategory name="tof" DisplayName="Temple of Febe">
 			<MarkerCategory name="c" displayname="Commandermarker">
 				<MarkerCategory name="ar" DisplayName="Arrow" iconFile="Data/Marker/arrow.png" iconSize="1.5" alpha="1"/>
-				<MarkerCategory name="ci" DisplayName="Circle" iconFile="Data/Marker/circle.png" iconSize="1" alpha="1"/>
-				<MarkerCategory name="he" DisplayName="Heart" iconFile="Data/Marker/heart.png" iconSize="1" alpha="1"/>
-				<MarkerCategory name="sq" DisplayName="Square" iconFile="Data/Marker/square.png" iconSize="1" alpha="1"/>
-				<MarkerCategory name="st" DisplayName="Star" iconFile="Data/Marker/star.png" iconSize="1" alpha="1"/>
-				<MarkerCategory name="sp" DisplayName="Spiral" iconFile="Data/Marker/spiral.png" iconSize="1" alpha="1"/>
-				<MarkerCategory name="tr" DisplayName="Triangle" iconFile="Data/Marker/triangle.png" iconSize="1" alpha="1"/>
-				<MarkerCategory name="x" DisplayName="X" iconFile="Data/Marker/x.png" iconSize="1" alpha="1"/>
+				<MarkerCategory name="ci" DisplayName="Circle" iconFile="Data/Marker/circle.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="he" DisplayName="Heart" iconFile="Data/Marker/heart.png" iconSize="2" alpha="1"/>
+				<MarkerCategory name="sq" DisplayName="Square" iconFile="Data/Marker/square.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="st" DisplayName="Star" iconFile="Data/Marker/star.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="sp" DisplayName="Spiral" iconFile="Data/Marker/spiral.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="tr" DisplayName="Triangle" iconFile="Data/Marker/triangle.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="x" DisplayName="X" iconFile="Data/Marker/x.png" iconSize="2" alpha="1"/>
 			</MarkerCategory>
 		</MarkerCategory>
 	 </MarkerCategory>
