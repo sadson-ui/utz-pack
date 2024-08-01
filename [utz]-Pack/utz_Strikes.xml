@@ -37,7 +37,7 @@
 				"/>
 		</MarkerCategory>
 		<MarkerCategory name="ht" DisplayName="Harvest Temple">
-				<MarkerCategory name="c" displayname="Commandermarker">
+			<MarkerCategory name="c" displayname="Commandermarker">
 				<MarkerCategory name="ar" DisplayName="Arrow" iconFile="Data/Marker/arrow.png" iconSize="1" alpha="0.8"/>
 				<MarkerCategory name="ci" DisplayName="Circle" iconFile="Data/Marker/circle.png" iconSize="1" alpha="0.8"/>
 				<MarkerCategory name="he" DisplayName="Heart" iconFile="Data/Marker/heart.png" iconSize="1" alpha="0.8"/>
@@ -57,7 +57,16 @@
 			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png" specialization="40,59,66" heightOffset="3" miniMapVisibility="0" alpha="0.8" fadeNear="1500" fadeFar="1600" triggerrange="1.5" info="Moa Signet!"/>
 		</MarkerCategory>
 		<MarkerCategory name="tof" DisplayName="Temple of Febe">
-			<MarkerCategory name="moa" DisplayName="Moa" iconFile="Data/Marker/signetmoa.png" specialization="40,59,66" heightOffset="3" miniMapVisibility="0" alpha="0.8" fadeNear="1500" fadeFar="1600" triggerrange="1.5" info="Moa Signet!"/>
+			<MarkerCategory name="c" displayname="Commandermarker">
+				<MarkerCategory name="ar" DisplayName="Arrow" iconFile="Data/Marker/arrow.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="ci" DisplayName="Circle" iconFile="Data/Marker/circle.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="he" DisplayName="Heart" iconFile="Data/Marker/heart.png" iconSize="2" alpha="1"/>
+				<MarkerCategory name="sq" DisplayName="Square" iconFile="Data/Marker/square.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="st" DisplayName="Star" iconFile="Data/Marker/star.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="sp" DisplayName="Spiral" iconFile="Data/Marker/spiral.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="tr" DisplayName="Triangle" iconFile="Data/Marker/triangle.png" iconSize="1.5" alpha="1"/>
+				<MarkerCategory name="x" DisplayName="X" iconFile="Data/Marker/x.png" iconSize="2" alpha="1"/>
+			</MarkerCategory>
 		</MarkerCategory>
 	 </MarkerCategory>
 	</MarkerCategory>
@@ -162,7 +171,15 @@
 	*                                                                          *
 	****************************************************************************-->
 	
-		<POI MapID="1520" xpos="-6.55714" ypos="207.677" zpos="-199.316" type="utz.str.co.moa" GUID="VINpSqvIMEWXKT30a43jlQ=="/>
-	
+		<POI MapID="1520" xpos="-5.479115" ypos="178.6714" zpos="-106.0365" type="utz.str.tof.c.ar" GUID="3eXHdMci7Ei4bgFin4RcbA=="/>
+		<POI MapID="1520" xpos="5.116087" ypos="178.6714" zpos="-94.83074" type="utz.str.tof.c.ci" GUID="SquIYiA+y0SD4Mzx17N4QA=="/>
+		<POI MapID="1520" xpos="26.66331" ypos="178.6709" zpos="-147.9619" type="utz.str.tof.c.he" GUID="quYaZI/OTEOCiwEAQ+ivdg=="/>
+		<POI MapID="1520" xpos="27.98042" ypos="178.6714" zpos="-94.56529" type="utz.str.tof.c.sq" GUID="rypq5hNRuk2J0ViPTnew9g=="/>
+		<POI MapID="1520" xpos="-10.3998" ypos="178.6743" zpos="-129.5793" type="utz.str.tof.c.st" GUID="74Tv37oylESPZsdZorv2hQ=="/>
+		<POI MapID="1520" xpos="-10.54221" ypos="178.6743" zpos="-112.738" type="utz.str.tof.c.sp" GUID="kbhTVZY42UO9nAdbeKQqaw=="/>
+		<POI MapID="1520" xpos="34.67861" ypos="178.6743" zpos="-103.7421" type="utz.str.tof.c.tr" GUID="2Iq+st5Nz06h1kvESge6Pw=="/>
+		<POI MapID="1520" xpos="0.573043" ypos="178.6743" zpos="-55.02465" type="utz.str.tof.c.x" GUID="drcOJrUqz0aNalAUpdmrcA=="/>
+		<!--<POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="CyoQzhg4jEyOYq2rm0bnDQ=="/>-->
+		
 	</POIs>
 </OverlayData>
