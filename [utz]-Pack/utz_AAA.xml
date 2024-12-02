@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- 2024.01.15 -->
+<!-- 2024.10.16 -->
 
 <OverlayData>
 
@@ -7,7 +7,7 @@
 	 <MarkerCategory name="separatormenu11" IsSeparator="1" DisplayName="v1.0.5 | 15.01.2024 "/>
 	<!-- Missing --> <!-- one xml -->
 	<MarkerCategory name="info" DisplayName="Missing stuff ">
-	 <MarkerCategory name="separatormenu01" IsSeparator="1" DisplayName="-- MISSING --"/>
+		<MarkerCategory name="separatormenu01" IsSeparator="1" DisplayName="-- MISSING --"/>
 	</MarkerCategory>
 		
 	<!-- Raids --><!-- different xmls -->
@@ -23,6 +23,11 @@
 	<!-- BLKF --> <!-- one xml -->
 	<MarkerCategory name="blkf" DisplayName="Black Lion Key Farm">
 		<MarkerCategory name="separatormenu04" IsSeparator="1" DisplayName="-- BLKF --"/>
+	</MarkerCategory>
+	
+	<!-- open world --> <!-- one xml -->
+	<MarkerCategory name="ow" DisplayName="Open World">
+		<MarkerCategory name="separatormenu05" IsSeparator="1" DisplayName="-- Open World --"/>
 	</MarkerCategory>
 </MarkerCategory>	
 	

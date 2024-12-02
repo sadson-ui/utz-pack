@@ -3,7 +3,7 @@
 <OverlayData>
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
 		<MarkerCategory name="info" DisplayName="Missing stuff">
-			<MarkerCategory name="12" DisplayName="maybe TC marker set"/>
+			<MarkerCategory name="01" DisplayName="maybe TC marker set"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>

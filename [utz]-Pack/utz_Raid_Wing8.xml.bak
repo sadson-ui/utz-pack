@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!-- 2024.01.15 -->
+<OverlayData>
+	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
+	 <MarkerCategory name="r" DisplayName="Raids">
+		<MarkerCategory name="w8" DisplayName="Wing 8">
+			<MarkerCategory name="decima" displayname="Decima">
+				<MarkerCategory name="c" displayname="Commandermarker">
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+				</MarkerCategory>
+			</MarkerCategory>
+			<!--<MarkerCategory name="greer" displayname="Greer">
+				<MarkerCategory name="c" displayname="Commandermarker">
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+				</MarkerCategory>
+			</MarkerCategory>
+			<MarkerCategory name="Ura" displayname="Ura">
+				<MarkerCategory name="c" displayname="Commandermarker">
+					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png" heightOffset="3" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+				</MarkerCategory>
+			</MarkerCategory>-->	
+		</MarkerCategory>
+	 </MarkerCategory>
+	</MarkerCategory>
+	
+	<POIs>
+	<!-- Decima -->
+		<POI MapID="1564" xpos="-250.1361" ypos="138.5175" zpos="313.9903" type="utz.r.w8.decima.c.ar" GUID="dOFk6M4xU0OX9b5QVFWRAQ=="/>
+		<POI MapID="1564" xpos="-242.6519" ypos="138.5213" zpos="318.0451" type="utz.r.w8.decima.c.ci" GUID="gv5wfyEzWECt2ipIvQZpEw=="/>
+		<POI MapID="1564" xpos="-238.7654" ypos="138.6542" zpos="325.3214" type="utz.r.w8.decima.c.he" GUID="GM9jy9xpHki4/77/VVmdBQ=="/>
+		<POI MapID="1564" xpos="-236.3595" ypos="138.8159" zpos="332.5543" type="utz.r.w8.decima.c.sq" GUID="rj8ud7pK2kOXm2t85IGPEg=="/>
+		<POI MapID="1564" xpos="-236.6209" ypos="138.71" zpos="342.3928" type="utz.r.w8.decima.c.st" GUID="eT8MeBUf7Eu+Vj6SbPmJRg=="/>
+	<!-- Greer -->
+	
+	<!-- Ura -->
+		
+	</POIs>
+</OverlayData>

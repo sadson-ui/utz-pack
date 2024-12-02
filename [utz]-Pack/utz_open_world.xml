@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!-- 2024.10.16 -->
+<OverlayData>
+	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
+		<MarkerCategory name="ow" DisplayName="Open World">
+			<MarkerCategory name="jw" DisplayName="Janthir Wilds">
+				<MarkerCategory name="sniff" DisplayName="Sniffing">
+					<MarkerCategory name="ls" DisplayName="Lowland Shore">
+						<MarkerCategory name="mythic" DisplayName="Mythic Chests" iconFile="Data/Marker/ow/sniff_mythic.png" iconSize="1.5" heightOffset="1"/>
+					</MarkerCategory>
+					<MarkerCategory name="js" DisplayName="Janthir Syntri">
+						<MarkerCategory name="mythic" DisplayName="Mythic Chests" iconFile="Data/Marker/ow/sniff_mythic.png" iconSize="1.5" heightOffset="1"/>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+			<MarkerCategory name="Collectible">
+				<MarkerCategory name="LionArchKarka" DisplayName="Lion's Arch Exterminator" achievementid="2128">
+					<MarkerCategory name="Part1" DisplayName="Part 1">
+						<MarkerCategory name="Karka1" DisplayName="Trail" iconFile="Data/Marker/ow/lae/Karkasymbol.png"/>
+						<MarkerCategory name="Karkastart1" DisplayName="Start" iconFile="Data/Marker/ow/lae/Karkahunt1.png"/>
+						<MarkerCategory name="Karkaend1" DisplayName="End" iconFile="Data/Marker/ow/lae/KarkasymbolEnd1.png"/>
+					</MarkerCategory>
+					<MarkerCategory name="Part2" DisplayName="Part 2">
+						<MarkerCategory name="Karka2" DisplayName="Trail" iconFile="Data/Marker/ow/lae/Karkasymbol.png"/>
+						<MarkerCategory name="Karkastart2" DisplayName="Start" iconFile="Data/Marker/ow/lae/Karkahunt2.png"/>
+						<MarkerCategory name="Karkaend2" DisplayName="End" iconFile="Data/Marker/ow/lae/KarkasymbolEnd2.png"/>
+					</MarkerCategory>
+					<MarkerCategory name="Part3" DisplayName="Part 3 (Only during night)">
+						<MarkerCategory name="Karka3" DisplayName="Trail" iconFile="Data/Marker/ow/lae/Karkasymbol.png"/>
+						<MarkerCategory name="Karkastart3" DisplayName="Start" iconFile="Data/Marker/ow/lae/Karkahunt3.png"/>
+						<MarkerCategory name="Karkaend3" DisplayName="End" iconFile="Data/Marker/ow/lae/KarkasymbolEnd3.png"/>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>
+	</MarkerCategory>
+	
+	
+	<POIs>
+	<!-- JW -->
+		<POI MapID="1550" xpos="-848.0444" ypos="269.5429" zpos="-351.9107" type="utz.ow.jw.sniff.ls.mythic" GUID="+7ugX0Jz/UuT/6A2GkShog=="/>"
+		<POI MapID="1550" xpos="715.5429" ypos="296.9803" zpos="-354.7029" type="utz.ow.jw.sniff.ls.mythic" GUID="1UpL5uEL9kqE+A4sulovuw=="/>
+		<POI MapID="1550" xpos="-10.96728" ypos="218.1442" zpos="-161.7757" type="utz.ow.jw.sniff.ls.mythic" GUID="JGFe9WY+zkWPHV53odZ7Zg=="/>
+		<POI MapID="1550" xpos="278.2758" ypos="316.2102" zpos="-513.4351" type="utz.ow.jw.sniff.ls.mythic" GUID="EwAURUYgqk+bAq8McLmPzQ=="/>
+		<POI MapID="1550" xpos="-346.5233" ypos="117.8772" zpos="24.45016" type="utz.ow.jw.sniff.ls.mythic" GUID="aAFhWnbtvkezaSu/ekaUvw=="/>
+		<POI MapID="1550" xpos="-964.1896" ypos="248.9137" zpos="-319.1544" type="utz.ow.jw.sniff.ls.mythic" GUID="4KZetzKIJ0mieCSnIWl9fQ=="/>
+		<POI MapID="1550" xpos="-644.9548" ypos="211.0105" zpos="-260.0661" type="utz.ow.jw.sniff.ls.mythic" GUID="7nCgw/mqYE2ZbkwHP7Lx0w=="/>
+		<POI MapID="1550" xpos="-926.9717" ypos="209.4392" zpos="54.1524" type="utz.ow.jw.sniff.ls.mythic" GUID="nVIYNTcZEkSZSllL4/fkPA=="/>
+		<POI MapID="1550" xpos="153.3112" ypos="303.1306" zpos="-94.05072" type="utz.ow.jw.sniff.ls.mythic" GUID="PjqfOFdpmEC71KfYyVmwqQ=="/>
+		
+	<!-- lae -->
+		<Trail type="utz.ow.collectible.LionArchKarka.Part3.Karka3" GUID="gLZdqI4M2MyIO/zrw5KqPg==" trailData="Data/Marker/ow/lae/trail/Karkatrail3_only_night.trl" texture="Data/Marker/ow/lae/Karkahunt.png" color="ff00ffff" alpha="0.8" fadeNear="3000" fadeFar="4000" animSpeed="1"/>
+		
+		<POI MapID="50" xpos="-300.387" ypos="31.3539" zpos="358.293" type="utz.ow.collectible.LionArchKarka.Part3.Karkastart3" GUID="BJLO59XWN0u9lzYPrnH16w==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="368.735" ypos="35.9965" zpos="335.83" type="utz.ow.collectible.LionArchKarka.Part3.Karka3" GUID="SgxCrx75vUG0LU2n7cKJjw==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="341.307" ypos="28.4951" zpos="429.947" type="utz.ow.collectible.LionArchKarka.Part3.Karkaend3" GUID="XY8/JB6tikqdzstgWVEvUQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="382.835" ypos="26.5915" zpos="415.467" type="utz.ow.collectible.LionArchKarka.Part3.Karka3" GUID="/r+4U927wkCJxZX0xCAv2g==" fadeNear="3000" fadeFar="4000"/>
+
+        <Trail type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="gLZdqI4M2EyIO/zrw5KqPg==" trailData="Data/Marker/ow/lae/trail/Karkatrail1.trl" texture="Data/Marker/ow/lae/Karkahunt.png" color="D0F5A9" alpha="0.8" fadeNear="3000" fadeFar="4000" animSpeed="1"/>
+		
+		<POI MapID="50" xpos="-302.534" ypos="31.449" zpos="361.946" type="utz.ow.collectible.LionArchKarka.Part1.Karkastart1" GUID="vETrWfeOqkexIKbQSsCqZQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-293.335" ypos="31.7195" zpos="368.185" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="PDZWXiWHHUGw0ovily4dbA==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-287.403" ypos="43.5801" zpos="376.858" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="0XTerbPq7ki9ullec7HXQg==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-284.184" ypos="43.5804" zpos="383.963" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="y7K9RV5EbkKs9Fs+ubQUGQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-321.82" ypos="35.9031" zpos="346.147" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="wlX0N/3H1Em+DvuRJaXFyQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-353.474" ypos="28.9381" zpos="351.66" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="Sr82XOcYQke3g1hwRp0i0g==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-403.427" ypos="28.7572" zpos="373.208" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="dkFMag5XI0yGbCG4DFpsIQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-465.702" ypos="42.6846" zpos="355.38" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="shY111U4HkWeTU+e9lZjZg==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-423.084" ypos="22.177" zpos="295.779" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="C1cJjLIDFUeIQZAIUembjQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-347.317" ypos="18.1012" zpos="341.142" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="0V1ZCLQeC0qkQqez0+jS3Q==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-289.666" ypos="38.3012" zpos="228.248" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="Nr8fhCHtjU+KQU03h22yeg==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-425.588" ypos="5.08434" zpos="232.025" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="si35Xg7g9kuUkowg3yeQEg==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-563.935" ypos="30.2734" zpos="1.18479" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="ODwdR7YGN0aLlmhj32S2Ug==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-614.406" ypos="38.7379" zpos="-73.6508" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="UIxwUKsS1Uy4G+aUHYkdXg==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-532.324" ypos="64.2899" zpos="-144.215" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="QCDdbBlkD0GvOwPR21lt2g==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-499.131" ypos="77.9131" zpos="-163.81" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="IkiSR2bn+EC468oMiNm2Qg==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-530.682" ypos="15.8311" zpos="-197.449" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="0hOo3EUDtkmXv4n1/WzwYQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-532.411" ypos="3.46413" zpos="-168.959" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="Hd2vtLQ6FkypcJlmCeQeSQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-539.515" ypos="0.660886" zpos="-45.2335" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="BXnyHP30SkupZxfbG4miaQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-354.587" ypos="7.57588" zpos="64.078" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="DerqwbGal0m1dQbBXL0EKQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-356.015" ypos="0.69324" zpos="154.859" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="tGpfPIFAPECFcq/3PBp9lQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-311.657" ypos="-0.0999071" zpos="-387.805" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="SISSWmCX40eIg9Olx71vsg==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-324.392" ypos="58.3351" zpos="-376.121" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="J6YQXuSo40K2f9pp9zmZ2w==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-142.133" ypos="34.0268" zpos="-358.296" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="fbUIsU7HAEGg8rNEKUnP1Q==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-145.613" ypos="8.22373" zpos="-355.68" type="utz.ow.collectible.LionArchKarka.Part1.Karka1" GUID="SlfE/BL+YkWghoRphAc7Ag==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-62.7152" ypos="3.73846" zpos="-34.2453"type="utz.ow.collectible.LionArchKarka.Part1.Karkaend1" GUID="OzmTVxIP4kGYr7CrhuKxow==" fadeNear="3000" fadeFar="4000"/>
+		
+        <Trail type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="gLZdqI4M2EoIO/zrw5KqPg==" trailData="Data/Marker/ow/lae/trail/Karkatrail2.trl" texture="Data/Marker/ow/lae/Karkahunt.png" color="F78181" alpha="0.8" fadeNear="3000" fadeFar="4000" animSpeed="1"/>
+		
+		<POI MapID="50" xpos="-303.081" ypos="31.303" zpos="357.684" type="utz.ow.collectible.LionArchKarka.Part2.Karkastart2" GUID="DMM/Nu/UV0Cki4ETaq810Q==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="-5.22091" ypos="38.8894" zpos="337.228" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="vRdxPFySpkSlvNkdoaYGQA==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="97.7005" ypos="23.7643" zpos="304.59" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="UleH2oj5tEOMVy9jMrgrrA==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="241.216" ypos="41.0236" zpos="206.217" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="iZTUuN3cOE+faJNvZCNA9Q==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="309.317" ypos="9.16512" zpos="134.261" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="c6fv08iklk6igA+pMUJBhA==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="424.282" ypos="3.4196" zpos="187.632" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="0A+5vr114EOWrJYbOdlYmQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="261.191" ypos="-0.388845" zpos="360.272" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="3NKNIEwsskS8+Sj00tJzoA==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="348.956" ypos="11.2224" zpos="281.117" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="6vrhcMZupUqw5LDjKgYRgg==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="437.364" ypos="-0.473291" zpos="239.34" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="T/Pvi1cYgUSS6bnbmTwF5g==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="584.953" ypos="14.468" zpos="383.751" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="l83yjw1n6kK82KjXW7YshQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="661.476" ypos="28.5935" zpos="249.027" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="AtQI6ANFdUiFXylg8ovwqA==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="694.527" ypos="41.0817" zpos="271.486" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="tL4Y5HLcVkelIi0q1uz+3Q==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="386.131" ypos="31.1642" zpos="-88.3765" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="zC+JMnlN70W1vHknK7dILA==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="372.733" ypos="11.4103" zpos="-6.82885" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="DlsyQfO+1ESFAVr+iUUIaw==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="449.129" ypos="1.07598" zpos="-319.437" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="fLbP2LlEvEiHxe+BGRh5IA==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="458.792" ypos="0.941892" zpos="-322.823" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="8br4IzqJVEyJIeAtQPL64w==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="465.2" ypos="25.5747" zpos="-277.272" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="37AVOybvSkCpj2p+Keui3g==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="686.298" ypos="1.91774" zpos="-431.404" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="XjjuqWsVt0iXIAL1r0QSAQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="712.285" ypos="30.0461" zpos="-395.542" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="JEOQ2OW8jE6shWbEkeiaOg==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="684.806" ypos="61.825" zpos="-360.449" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="j9VQO6ezVUCUIKhsw/RmBw==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="718.983" ypos="71.5115" zpos="-329.479" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="GXYPVqoue0WJANGLiWKyoQ==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="596.067" ypos="39.3763" zpos="-357.904" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="uHjxY57UyUO1RTPkAtoWGw==" fadeNear="3000" fadeFar="4000"/>
+		<POI MapID="50" xpos="520.381" ypos="1.93428" zpos="-376.011" type="utz.ow.collectible.LionArchKarka.Part2.Karkaend2" GUID="3RIWS9TIU0mdJbDDXGyvvA==" fadeNear="3000" fadeFar="4000"/>
+	 </POIs>
+</OverlayData>
