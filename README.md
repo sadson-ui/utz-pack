@@ -4,8 +4,6 @@
 
 Including marker for raids and eod/soto strikes
 
-v1.0.6:
+v1.0.8:
 
-- adjusted some marker settings for certain specializations
-- added some new markers (ht)
-- some renaming stuff
+- added wing 8
