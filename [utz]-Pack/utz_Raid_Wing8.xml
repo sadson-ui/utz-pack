@@ -9,8 +9,9 @@
 					<MarkerCategory name="ar" displayName="Arrow" iconFile="Data/Marker/arrow.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
 					<MarkerCategory name="ci" displayName="Circle" iconFile="Data/Marker/circle.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
 					<MarkerCategory name="he" displayName="Heart" iconFile="Data/Marker/heart.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
-					<MarkerCategory name="sq" displayName="Square" iconFile="Data/Marker/square.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
 					<MarkerCategory name="st" displayName="Star" iconFile="Data/Marker/star.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="sp" displayName="Spiral" iconFile="Data/Marker/spiral.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
+					<MarkerCategory name="tr" displayName="Triangle" iconFile="Data/Marker/triangle.png" heightOffset="1" iconSize="1" alpha="0.75" fadeNear="3000" fadeFar="3200"/>
 				</MarkerCategory>
 			</MarkerCategory>
 			<!--<MarkerCategory name="greer" displayname="Greer">
@@ -37,11 +38,12 @@
 	
 	<POIs>
 	<!-- Decima -->
-		<POI MapID="1564" xpos="-250.1361" ypos="138.5175" zpos="313.9903" type="utz.r.w8.decima.c.ar" GUID="dOFk6M4xU0OX9b5QVFWRAQ=="/>
-		<POI MapID="1564" xpos="-242.6519" ypos="138.5213" zpos="318.0451" type="utz.r.w8.decima.c.ci" GUID="gv5wfyEzWECt2ipIvQZpEw=="/>
-		<POI MapID="1564" xpos="-238.7654" ypos="138.6542" zpos="325.3214" type="utz.r.w8.decima.c.he" GUID="GM9jy9xpHki4/77/VVmdBQ=="/>
-		<POI MapID="1564" xpos="-236.3595" ypos="138.8159" zpos="332.5543" type="utz.r.w8.decima.c.sq" GUID="rj8ud7pK2kOXm2t85IGPEg=="/>
-		<POI MapID="1564" xpos="-236.6209" ypos="138.71" zpos="342.3928" type="utz.r.w8.decima.c.st" GUID="eT8MeBUf7Eu+Vj6SbPmJRg=="/>
+		<POI MapID="1564" xpos="-278.3718" ypos="138.5165" zpos="331.5732" type="utz.r.w8.decima.c.ar" GUID="dOFk6M4xU0OX9b5QVFWRAQ=="/>
+		<POI MapID="1564" xpos="-257.8255" ypos="138.5165" zpos="349.2706" type="utz.r.w8.decima.c.ci" GUID="gv5wfyEzWECt2ipIvQZpEw=="/>
+		<POI MapID="1564" xpos="-251.6391" ypos="138.5165" zpos="320.4854" type="utz.r.w8.decima.c.he" GUID="GM9jy9xpHki4/77/VVmdBQ=="/>
+		<POI MapID="1564" xpos="-251.0352" ypos="138.5165" zpos="335.6889" type="utz.r.w8.decima.c.st" GUID="eT8MeBUf7Eu+Vj6SbPmJRg=="/>
+		<POI MapID="1564" xpos="-264.8644" ypos="138.5165" zpos="324.202" type="utz.r.w8.decima.c.sp" GUID="4tFtq/LVWEyikJJfA+RzcA=="/>
+		<POI MapID="1564" xpos="-267.9708" ypos="138.5165" zpos="342.6296" type="utz.r.w8.decima.c.tr" GUID="CQoI5FvjxUSskoCl/oNwLw=="/>
 	<!-- Greer -->
 	
 	<!-- Ura -->

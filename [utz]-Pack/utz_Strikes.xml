@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- 2024.08.01 -->
+<!-- 2025.02.06 -->
 <OverlayData>
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
 	 <MarkerCategory name="str" DisplayName="Strike CMs">
@@ -66,6 +66,23 @@
 				<MarkerCategory name="sp" DisplayName="Spiral" iconFile="Data/Marker/spiral.png" iconSize="1.5" alpha="1"/>
 				<MarkerCategory name="tr" DisplayName="Triangle" iconFile="Data/Marker/triangle.png" iconSize="1.5" alpha="1"/>
 				<MarkerCategory name="x" DisplayName="X" iconFile="Data/Marker/x.png" iconSize="2" alpha="1"/>
+			</MarkerCategory>
+			<MarkerCategory name="po" DisplayName="Portals">
+				<MarkerCategory name="chrono" DisplayName="Chrono">
+					<MarkerCategory name="cp1" DisplayName="Portal 1" iconFile="Data/Marker/1.png" iconSize="2" alpha="1"/>
+					<MarkerCategory name="cp2" DisplayName="Portal 2" iconFile="Data/Marker/2.png" iconSize="2" alpha="1"/>
+					<MarkerCategory name="cp3" DisplayName="Portal 3" iconFile="Data/Marker/3.png" iconSize="2" alpha="1"/>
+					<MarkerCategory name="cp4" DisplayName="Portal 4" iconFile="Data/Marker/4.png" iconSize="2" alpha="1"/>
+					<MarkerCategory name="cp5" DisplayName="Portal 5" iconFile="Data/Marker/5.png" iconSize="2" alpha="1"/>
+					<MarkerCategory name="cp6" DisplayName="Portal 6" iconFile="Data/Marker/6.png" iconSize="2" alpha="1"/>
+					<MarkerCategory name="cp7" DisplayName="Portal 7" iconFile="Data/Marker/7.png" iconSize="2" alpha="1"/>
+					<MarkerCategory name="cp8" DisplayName="Portal 8" iconFile="Data/Marker/8.png" iconSize="2" alpha="1"/>
+				</MarkerCategory>
+				<MarkerCategory name="scg" DisplayName="Scourge">
+					<MarkerCategory name="sp1" DisplayName="Portal 1" iconFile="Data/Marker/1g.png" iconSize="2" alpha="1"/>
+					<MarkerCategory name="sp2" DisplayName="Portal 2" iconFile="Data/Marker/2g.png" iconSize="2" alpha="1"/>
+					<MarkerCategory name="sp3" DisplayName="Portal 3" iconFile="Data/Marker/3g.png" iconSize="2" alpha="1"/>
+				</MarkerCategory>
 			</MarkerCategory>
 		</MarkerCategory>
 	 </MarkerCategory>
@@ -144,7 +161,6 @@
 		<POI MapID="1437" xpos="32.22452" ypos="391.7232" zpos="-550.3665" type="utz.str.ht.c.st" GUID="kKxBCPrhEkaBqbaxcWxd0w=="/>
 		<POI MapID="1437" xpos="13.30768" ypos="391.7232" zpos="-489.8561" type="utz.str.ht.c.sp" GUID="o8VlCDGSNkiW0v/Ze0n4OA=="/>
 		<POI MapID="1437" xpos="27.18572" ypos="391.7232" zpos="-504.5462" type="utz.str.ht.c.tr" GUID="lIxqJGEj6E+w788UbPxJ5w=="/>
-		<!--<POI MapID="1437" xpos="" ypos="" zpos="" type="utz.str.ht.c.x" GUID="dexRXkAKxkCOZb9DM20frQ=="/>-->
 	
 	<!--
 	**************************************************************************** 
@@ -178,8 +194,15 @@
 		<POI MapID="1520" xpos="-10.3998" ypos="178.6743" zpos="-129.5793" type="utz.str.tof.c.st" GUID="74Tv37oylESPZsdZorv2hQ=="/>
 		<POI MapID="1520" xpos="-10.54221" ypos="178.6743" zpos="-112.738" type="utz.str.tof.c.sp" GUID="kbhTVZY42UO9nAdbeKQqaw=="/>
 		<POI MapID="1520" xpos="34.67861" ypos="178.6743" zpos="-103.7421" type="utz.str.tof.c.tr" GUID="2Iq+st5Nz06h1kvESge6Pw=="/>
-		<POI MapID="1520" xpos="0.573043" ypos="178.6743" zpos="-55.02465" type="utz.str.tof.c.x" GUID="drcOJrUqz0aNalAUpdmrcA=="/>
-		<!--<POI MapID="1520" xpos="0" ypos="0" zpos="0" GUID="CyoQzhg4jEyOYq2rm0bnDQ=="/>-->
+		<POI MapID="1520" xpos="-0.842114" ypos="178.6714" zpos="-68.47942" type="utz.str.tof.c.x" GUID="DgBGL0mmcU63SlAAUGUyyA=="/>
+		<POI MapID="1520" xpos="43.69013" ypos="178.6743" zpos="-75.22559" type="utz.str.tof.po.chrono.cp1" GUID="bZhm1531SkGzIfbTvUaYAQ=="/>
+		<POI MapID="1520" xpos="40.93591" ypos="178.6697" zpos="-69.29836" type="utz.str.tof.po.chrono.cp2" GUID="vbR6OuKBi0evjzPAiCF9+w=="/>
+		<POI MapID="1520" xpos="50.79308" ypos="178.6714" zpos="-110.3501" type="utz.str.tof.po.chrono.cp3" GUID="wAtEYJZjjEyrT+K0dLj+eg=="/>
+		<POI MapID="1520" xpos="31.74129" ypos="178.6714" zpos="-111.931" type="utz.str.tof.po.chrono.cp4" GUID="dpNtGeXHm0utmGca22dVeg=="/>
+		<POI MapID="1520" xpos="-23.76278" ypos="178.6716" zpos="-121.0485" type="utz.str.tof.po.chrono.cp5" GUID="GDvFt9HR806MfgU6QTduEw=="/>
+		<POI MapID="1520" xpos="34.67861" ypos="178.6743" zpos="-103.7421" type="utz.str.tof.po.chrono.cp6" GUID="2Iq+st5Nz06h1kvESge6Pw=="/>
+		<POI MapID="1520" xpos="-0.02664464" ypos="178.6743" zpos="-51.2887" type="utz.str.tof.po.chrono.cp7" GUID="1/vTgF9kWkqk0tDDUtIU9Q=="/>
+		<POI MapID="1520" xpos="-6.50689" ypos="178.6714" zpos="-125.7103" type="utz.str.tof.po.chrono.cp8" GUID="L1m9D79iiE6ey/2Kq3fmbA=="/>
 		
 	</POIs>
 </OverlayData>
