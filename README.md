@@ -4,8 +4,6 @@
 
 Including marker for raids and eod/soto strikes
 
-v1.0.9:
+v1.0.9b:
 
--changed Decima markers to match current strat
-
--changed ToF markers to match generic marker sets
+-added Wing 8 CM marker
