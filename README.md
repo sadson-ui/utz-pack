@@ -4,6 +4,6 @@
 
 Including marker for raids and eod/soto strikes
 
-v1.0.9b:
+v1.0.9c:
 
--added Wing 8 CM marker
+adjustments
