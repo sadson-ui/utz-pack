@@ -9,11 +9,7 @@
 		<MarkerCategory name="blkf_fields" displayName="WP Fields" iconFile="Data/Marker/blkf/blkf_fields.png" iconSize="2" fadeNear="2000" fadeFar="2100" miniMapVisibility="0" heightOffset="3"/>
 		<MarkerCategory name="blkf_shaemoor" displayName="WP Shaemoor" iconFile="Data/Marker/blkf/blkf_shaemoor.png" iconSize="2" fadeNear="2000" fadeFar="2100" miniMapVisibility="0" heightOffset="3"/>
 		<MarkerCategory name="blkf_palace" displayName="WP Palace" iconFile="Data/Marker/blkf/blkf_palace.png" iconSize="2" fadeNear="2000" fadeFar="2100" miniMapVisibility="0" heightOffset="3"/>
-	
-	
-	
-	
-	</MarkerCategory>
+		</MarkerCategory>
 </MarkerCategory>
 
 	<POIs>

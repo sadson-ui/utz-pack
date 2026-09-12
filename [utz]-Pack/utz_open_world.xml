@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0"?> 
 <!-- 2024.10.16 -->
 <OverlayData>
 	<MarkerCategory name="utz" DisplayName="[utz]-Pack">
@@ -32,7 +32,34 @@
 					</MarkerCategory>
 				</MarkerCategory>
 			</MarkerCategory>
-		</MarkerCategory>
+			<!--<MarkerCategory name="voe" DisplayName="Visions of Eternity">
+				<MarkerCategory name="mirror" DisplayName="Mirror Farm">
+					<MarkerCategory name="ship" DisplayName="Shipwreck Strand">
+						<MarkerCategory name="medium_1595" DisplayName="medium Chests">
+							<MarkerCategory name="trail_medium_1595" DisplayName="Trail"/>
+							<MarkerCategory name="chest_s" DisplayName="small Chest" iconFile="Data/Marker/ow/mirror/mcs.png" iconsize="0.5" mapdisplaysize="40" fadenear="5000" fadefar="5100" behavior="2" heightoffset="0.0" minsize="10"/>
+							<MarkerCategory name="chest_m" DisplayName="mediumChest" iconFile="Data/Marker/ow/mirror/mcm.png" iconsize="0.5" mapdisplaysize="40" fadenear="5000" fadefar="5100" behavior="2" heightoffset="0.0" minsize="10"/>
+						</MarkerCategory>
+						<MarkerCategory name="large_1595" DisplayName="large Chests"/>
+							<MarkerCategory name="trail_large_1595" DisplayName="Trail" texture="Data/Marker/ow/mirror/trail_purple.png"/>
+							<MarkerCategory name="chest_l" DisplayName="large Chest" iconFile="Data/Marker/ow/mirror/mcl.png" iconsize="0.5" mapdisplaysize="40" fadenear="5000" fadefar="5100" behavior="2" heightoffset="0.0" minsize="10"/>
+						<MarkerCategory name="mirror" DisplayName="Magic Mirror" iconFile="Data/Marker/ow/mirror/magic_mirror.png" iconsize="0.5" mapdisplaysize="40" fadenear="5000" fadefar="5100" behavior="2" heightoffset="0.0" minsize="10"/>
+					</MarkerCategory>
+					<MarkerCategory name="starlit" DisplayName="Starlit Weald">
+						<MarkerCategory name="medium_1593" DisplayName="medium Chests">
+							<MarkerCategory name="trail_medium_1593" DisplayName="Trail"/>
+							<MarkerCategory name="chest_s" DisplayName="small Chest" iconFile="Data/Marker/ow/mirror/mcs.png" iconsize="0.5" mapdisplaysize="40" fadenear="5000" fadefar="5100" behavior="2" heightoffset="0.0" minsize="10"/>
+							<MarkerCategory name="chest_m" DisplayName="mediumChest" iconFile="Data/Marker/ow/mirror/mcm.png" iconsize="0.5" mapdisplaysize="40" fadenear="5000" fadefar="5100" behavior="2" heightoffset="0.0" minsize="10"/>
+						</MarkerCatergory>
+						<MarkerCategory name="large_1593" DisplayName="large Chests">
+							<MarkerCategory name="trail_large_1593" DisplayName="Trail" texture="Data/Marker/ow/mirror/trail_purple.png"/>
+							<MarkerCategory name="chest_l" DisplayName="large Chest" iconFile="Data/Marker/ow/mirror/mcl.png" iconsize="0.5" mapdisplaysize="40" fadenear="5000" fadefar="5100" behavior="2" heightoffset="0.0" minsize="10"/>
+						</MarkerCategory>
+						<MarkerCategory name="mirror" DisplayName="Magic Mirror" iconFile="Data/Marker/ow/mirror/magic_mirror.png" iconsize="0.5" mapdisplaysize="40" fadenear="5000" fadefar="5100" behavior="2" heightoffset="0.0" minsize="10"/>
+					</MarkerCategory>
+				</MarkerCategory>
+			</MarkerCategory>
+		</MarkerCategory>-->
 	</MarkerCategory>
 	
 	
@@ -110,5 +137,19 @@
 		<POI MapID="50" xpos="718.983" ypos="71.5115" zpos="-329.479" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="GXYPVqoue0WJANGLiWKyoQ==" fadeNear="3000" fadeFar="4000"/>
 		<POI MapID="50" xpos="596.067" ypos="39.3763" zpos="-357.904" type="utz.ow.collectible.LionArchKarka.Part2.Karka2" GUID="uHjxY57UyUO1RTPkAtoWGw==" fadeNear="3000" fadeFar="4000"/>
 		<POI MapID="50" xpos="520.381" ypos="1.93428" zpos="-376.011" type="utz.ow.collectible.LionArchKarka.Part2.Karkaend2" GUID="3RIWS9TIU0mdJbDDXGyvvA==" fadeNear="3000" fadeFar="4000"/>
+
+	<!-- voe 
+		<Trail/>
+		<trail type="utz.ow.voe.mirror.ship" guid="3WKhI0oheUinGdn5RNZZdw==" traildata="Data/Trail/ow/mirror/chests_shipwreck_large.trl" mapid="1595"/>
+		<POI type="utz.ow.voe.mirror.ship.chest_s"/> 34x2=68
+		<POI type="utz.ow.voe.mirror.ship.chest_m"/> 10x4=40	-> 138
+		<POI type="utz.ow.voe.mirror.ship.chest_l"/> 3x10=30
+		<POI type="utz.ow.voe.mirror.ship.mirror"/> 9x10=90
+		<POI type="utz.ow.voe.mirror.starlit.chest_s"/> 36x2=72
+		<POI type="utz.ow.voe.mirror.starlit.chest_m"/> 12x4=48	-> 160
+		<POI type="utz.ow.voe.mirror.starlit.chest_l"/> 4x10=40
+		<POI type="utz.ow.voe.mirror.starlit.mirror"/> 10x10=100
+		-->
+
 	 </POIs>
 </OverlayData>
