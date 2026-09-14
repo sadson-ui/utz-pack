@@ -2,8 +2,8 @@
 
 [Download Latest Release](https://github.com/sadson-ui/utz-pack/releases/latest/download/utzpack.taco)
 
-Including marker for raids and eod/soto strikes
+v1.1a:
 
-v1.0.9c:
+Kela and ToF marker
 
-adjustments
+Note: TaimiHud ignores rotiation input. Plz use kela taimi marker till fix
